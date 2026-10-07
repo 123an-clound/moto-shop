@@ -1,0 +1,134 @@
+export type VehicleType = "gasoline" | "electric" | "accessory";
+export type Specification = { key: string; value: string; group: string };
+export type ProductVariant = {
+  id: string;
+  colorName: string;
+  colorHex: string;
+  images: string[];
+  stock: number;
+};
+export type Product = {
+  id: string;
+  slug: string;
+  name: string;
+  brand: string;
+  type: VehicleType;
+  price: number;
+  salePrice: number | null;
+  description: string;
+  featured: boolean;
+  inStock: boolean;
+  published: boolean;
+  createdAt: string;
+  engineCc: number | null;
+  motorKw: number | null;
+  batteryKwh: number | null;
+  rangeKm: number | null;
+  seatHeight: number | null;
+  brake: string;
+  variants: ProductVariant[];
+  specs: Specification[];
+  sourceUrl: string;
+  sourceDate: string;
+  priceNote: string;
+};
+export type Banner = {
+  id: string;
+  title: string;
+  subtitle: string;
+  image: string;
+  href: string;
+  label: string;
+};
+export type Showroom = {
+  id: string;
+  name: string;
+  address: string;
+  hours: string;
+  mapUrl: string;
+};
+export type Review = {
+  id: string;
+  name: string;
+  model: string;
+  quote: string;
+  rating: number;
+};
+export type SiteSettings = {
+  siteName: string;
+  primaryColor: string;
+  logoUrl: string;
+  faviconUrl: string;
+  contactPhone: string;
+  contactEmail: string;
+  address: string;
+  topBar: string;
+  popup: string;
+  heroBanners: Banner[];
+  showrooms: Showroom[];
+  reviews?: Review[];
+  blocks: {
+    featured: boolean;
+    electric: boolean;
+    news: boolean;
+    showrooms: boolean;
+    reviews: boolean;
+  };
+  depositPercent: number;
+  annualInterestRate: number;
+  bankBin: string;
+  bankAccount: string;
+  bankName: string;
+};
+export type CartItem = {
+  productId: string;
+  variantId: string;
+  quantity: number;
+};
+export type OrderStatus = "pending" | "confirmed" | "completed" | "cancelled";
+export type OrderItem = {
+  productId: string;
+  variantId: string;
+  name: string;
+  color: string;
+  image: string;
+  quantity: number;
+  unitPrice: number;
+};
+export type Order = {
+  id: string;
+  code: string;
+  fullName: string;
+  phone: string;
+  email: string;
+  address: string;
+  notes: string;
+  paymentMethod: "cod" | "bank";
+  status: OrderStatus;
+  paymentStatus: "unpaid" | "paid";
+  total: number;
+  deposit: number;
+  items: OrderItem[];
+  createdAt: string;
+};
+export type TestDrive = {
+  id: string;
+  productId: string;
+  productName: string;
+  fullName: string;
+  phone: string;
+  email: string;
+  preferredDate: string;
+  preferredTime: string;
+  preferredLocation: string;
+  notes: string;
+  status: "pending" | "confirmed" | "completed" | "purchased" | "cancelled";
+  createdAt: string;
+};
+export type AdminSnapshot = {
+  products: Product[];
+  settings: SiteSettings;
+  orders: Order[];
+  testDrives: TestDrive[];
+  mode: "local" | "supabase";
+};

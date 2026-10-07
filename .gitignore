@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.local/
+*.tsbuildinfo
+test-results/
+playwright-report/
+supabase/.temp/
+supabase/.branches/
+docs/artifacts/*.html
+docs/artifacts/*.json
+
+.playwright-mcp/
+public/uploads/

@@ -1,0 +1,14 @@
+{
+  "siteName": "MotoShop", "primaryColor": "#c7252b", "logoUrl": "", "faviconUrl": "",
+  "contactPhone": "", "contactEmail": "", "address": "",
+  "topBar": "Khám phá xe xăng & xe điện • Đăng ký lái thử trước khi chọn xe",
+  "popup": "",
+  "heroBanners": [
+    {"id":"hero-1","title":"Chọn xe.\nChọn chất riêng.","subtitle":"Từ nhịp phố mỗi ngày đến những cung đường mới. Tìm chiếc xe phù hợp với bạn.","image":"/images/hero/honda-sh350i.avif","href":"/xe/honda-sh350i","label":"HONDA SH350i"},
+    {"id":"hero-2","title":"Điện năng.\nCảm hứng mới.","subtitle":"Khám phá thế hệ xe điện với thông số pin, quãng đường và chi phí rõ ràng.","image":"/images/hero/vinfast-feliz-2025.avif","href":"/xe?loai=electric","label":"KHÁM PHÁ XE ĐIỆN"}
+  ],
+  "showrooms": [{"id":"tu-van","name":"Tư vấn chọn showroom","address":"Địa chỉ showroom sẽ được cập nhật. Nhân viên xác nhận địa điểm khi liên hệ.","hours":"Theo lịch hẹn được xác nhận","mapUrl":""}],
+  "blocks": {"featured":true,"electric":true,"news":true,"showrooms":true,"reviews":false},
+  "depositPercent": 10, "annualInterestRate": 12,
+  "bankBin":"", "bankAccount":"", "bankName":""
+}

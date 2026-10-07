@@ -1,0 +1,1075 @@
+[
+  {
+    "brand": "Honda",
+    "model": "Vision",
+    "name": "Honda Vision Phiên bản Thể thao",
+    "slug": "honda-vision",
+    "version": "Phiên bản Thể thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=103",
+    "price_vnd": 36808363,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Bạc đen",
+        "color_hex": "#f2f2f2",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765585834/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765585834/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765585834/0.png"
+      },
+      {
+        "color_name": "Đen",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765586281/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765586281/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765586281/0.png"
+      },
+      {
+        "color_name": "Xám đen",
+        "color_hex": "#cfcfcf",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765586419/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765586419/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/December2025/1765586419/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "97 kg",
+      "Dài x Rộng x Cao": "1.925 mm x 686 mm x 1.126 mm",
+      "Khoảng cách trục bánh xe": "1.277 mm",
+      "Độ cao yên": "785 mm",
+      "Khoảng sáng gầm xe": "175 mm",
+      "Dung tích bình xăng": "4,8 lít",
+      "Kích cỡ lốp trước/ sau": "Lốp trước: 80/90-16M/C 43P Lốp sau: 90/90-14M/C 46P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ đơn, giảm chấn thủy lực",
+      "Loại động cơ": "Xăng, 4 kỳ, 1 xi lanh, làm mát bằng không khí",
+      "Công suất tối đa": "6,59 kW/7.500 vòng/ phút",
+      "Dung tích nhớt máy": "Sau khi xả 0,65 lít Sau khi rã máy 0,8 lít",
+      "Mức tiêu thụ nhiên liệu": "1,82 lít/100 km",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "9,29 Nm/6.000 vòng/ phút",
+      "Dung tích xy-lanh": "109,5 cm3",
+      "Đường kính x Hành trình pít tông": "47,0 mm x 63,1 mm",
+      "Tỷ số nén": "10:1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "Air Blade 160",
+    "name": "Honda Air Blade 160 phiên bản Thể Thao",
+    "slug": "honda-air-blade-160125",
+    "version": "Air Blade 160 phiên bản Thể Thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?version=85",
+    "price_vnd": 58790000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Trắng Đỏ Đen",
+        "color_hex": "#ffffff",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148885/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148885/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148885/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "113kg",
+      "Dài x Rộng x Cao": "1887mm x 686mm x 1086mm",
+      "Khoảng cách trục bánh xe": "1286mm",
+      "Độ cao yên": "775mm",
+      "Khoảng sáng gầm xe": "142mm",
+      "Dung tích bình xăng": "4,4L",
+      "Kích cỡ lốp trước/ sau": "Trước: 90/80-14M/C 43P Sau : 100/80 -14M/C 48P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ, giảm chấn thủy lực",
+      "Loại động cơ": "Xăng, 4 kỳ, 1 xi-lanh, làm mát bằng chất lỏng",
+      "Công suất tối đa": "11,2kW/8000 vòng/phút",
+      "Dung tích nhớt máy": "0,8 lít khi thay nhớt 0,9 lít khi rã máy",
+      "Mức tiêu thụ nhiên liệu": "2,23l/100km",
+      "Loại truyền động": "Dây đai, biến thiên vô cấp",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "14,8 N.m/6000 vòng/phút",
+      "Dung tích xy-lanh": "156,9 cm3",
+      "Đường kính x Hành trình pít tông": "60,00mm x 55,50mm",
+      "Tỷ số nén": "12,0:1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "LEAD ABS",
+    "name": "Honda LEAD ABS Phiên bản Đặc biệt",
+    "slug": "honda-lead-abs",
+    "version": "Phiên bản Đặc biệt",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?version=91",
+    "price_vnd": 45841091,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Bạc Đen",
+        "color_hex": "#c7c7c7",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762149017/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762149017/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762149017/0.png"
+      },
+      {
+        "color_name": "Xanh Đen",
+        "color_hex": "#36435e",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148830/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148830/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148830/0.png"
+      },
+      {
+        "color_name": "Đen Nâu",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148744/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148744/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762148744/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "114 kg",
+      "Dài x Rộng x Cao": "1844mm x 714mm x 1132mm",
+      "Khoảng cách trục bánh xe": "1273 mm",
+      "Độ cao yên": "760 mm",
+      "Khoảng sáng gầm xe": "140 mm",
+      "Dung tích bình xăng": "6,0 lít",
+      "Kích cỡ lốp trước/ sau": "Trước: 90/90-12 44J Sau: 100/90-10 56J",
+      "Phuộc trước": "Ống lồng",
+      "Phuộc sau": "Lò xo trụ",
+      "Loại động cơ": "Xăng 4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+      "Công suất tối đa": "8,22kW/8500 vòng/ phút",
+      "Dung tích nhớt máy": "Sau khi xả 0,8 lít Sau khi tháo lọc dầu 0.85 lít Sau khi rã máy 0.9 lít",
+      "Mức tiêu thụ nhiên liệu": "2.1 lít/100km",
+      "Loại truyền động": "Truyền động đai",
+      "Hệ thống khởi động": "Khởi động điện",
+      "Moment cực đại": "11,7Nm/5250 vòng/ phút",
+      "Dung tích xy-lanh": "124,8 cm3",
+      "Đường kính x Hành trình pít tông": "53,5 mm x 55,5 mm",
+      "Tỷ số nén": "11,5:1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "Sh mode 125",
+    "name": "Honda Sh mode 125 Phiên bản Thể thao",
+    "slug": "honda-sh-mode-125",
+    "version": "Phiên bản Thể thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?version=115",
+    "price_vnd": 66361091,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Trắng đen",
+        "color_hex": "#eeebe7",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/September2026/1789954291/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/September2026/1789954291/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/September2026/1789954291/0.png"
+      },
+      {
+        "color_name": "Xám đen",
+        "color_hex": "#9e9e9e",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/September2026/1789954329/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/September2026/1789954329/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/September2026/1789954329/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "116kg",
+      "Dài x Rộng x Cao": "1950 mm x 668 mm x 1110 mm",
+      "Khoảng cách trục bánh xe": "1304 mm",
+      "Độ cao yên": "765 mm",
+      "Khoảng sáng gầm xe": "151 mm",
+      "Dung tích bình xăng": "5,6 L",
+      "Kích cỡ lốp trước/ sau": "Lốp trước 80/90-16M/C 43P Lốp sau 100/90-14M/C 57P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Phuộc đơn",
+      "Loại động cơ": "Xăng, 4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+      "Công suất tối đa": "8,2kW / 8500 vòng/phút",
+      "Dung tích nhớt máy": "Sau khi xả 0,8 L Sau khi xả và vệ sinh lưới lọc 0,9 L Sau khi rã máy 0,9 L",
+      "Mức tiêu thụ nhiên liệu": "2,16 L / 100km",
+      "Loại truyền động": "Tự động, vô cấp",
+      "Hệ thống khởi động": "Bộ khởi động điện",
+      "Moment cực đại": "11,7 N.m / 5000 vòng/phút",
+      "Dung tích xy-lanh": "124,8 cm3",
+      "Đường kính x Hành trình pít tông": "53,5 x 55,5 mm",
+      "Tỷ số nén": "11,5:1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "SH160i",
+    "name": "Honda SH160i Phiên bản Thể Thao",
+    "slug": "honda-sh160i125i",
+    "version": "SH160i Phiên bản Thể Thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/sh160i125i?version=95",
+    "price_vnd": 104490000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Xám Đen Đỏ",
+        "color_hex": "#969292",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762225196/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762225196/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762225196/0.png"
+      },
+      {
+        "color_name": "Xanh Đen Đỏ",
+        "color_hex": "#86c185",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762225783/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762225783/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/November2025/1762225783/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "134kg",
+      "Dài x Rộng x Cao": "2.090mm x 739mm x 1.156mm",
+      "Khoảng cách trục bánh xe": "1.353mm",
+      "Độ cao yên": "799mm",
+      "Khoảng sáng gầm xe": "146mm",
+      "Dung tích bình xăng": "7 lít",
+      "Kích cỡ lốp trước/ sau": "100/80 - 16 M/C 50P 120/80 - 16 M/C 60P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ, giảm chấn thủy lực",
+      "Loại động cơ": "Xăng, 4 kỳ, 1 xy-lanh, làm mát bằng chất lỏng",
+      "Công suất tối đa": "12,4kW/8.500 vòng/phút",
+      "Dung tích nhớt máy": "Sau khi thay nhớt: 0,8 lít Sau khi thay nhớt và vệ sinh lưới lọc dầu: 0,85 lít Sau khi rã máy: 0,9 lít",
+      "Mức tiêu thụ nhiên liệu": "2,34 Lít /100km",
+      "Loại truyền động": "Hệ thống truyền động đai",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "14,8N.m / 6.500 vòng/phút",
+      "Dung tích xy-lanh": "156,9cm³",
+      "Đường kính x Hành trình pít tông": "60,000mm x 55,502mm",
+      "Tỷ số nén": "12,0:1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "Vario 160",
+    "name": "Honda Vario 160 Thể Thao",
+    "slug": "honda-vario-160",
+    "version": "Thể Thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?version=46",
+    "price_vnd": 56690000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Xám Đen Bạc",
+        "color_hex": "#a9a7a7",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729588421/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729588421/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729588421/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "118 kg",
+      "Dài x Rộng x Cao": "1929 mmx695 mm x 1088 mm",
+      "Khoảng cách trục bánh xe": "1.278 mm",
+      "Độ cao yên": "778 mm",
+      "Khoảng sáng gầm xe": "138 mm",
+      "Dung tích bình xăng": "5,5 L",
+      "Kích cỡ lốp trước/ sau": "Lốp trước:100/80-14 M/C48P Lốp sau:120/70-14 M/C61P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ, giảm chấn thủy lực",
+      "Loại động cơ": "Xăng, 4 kỳ, 1 xy - lanh, làm mát bằng chất lỏng",
+      "Công suất tối đa": "11,3kW/8.500 vòng/phút",
+      "Dung tích nhớt máy": "Khi thay dầu: 0.8 lít Khi tháo lọc dầu: 0.85 lít Khi tháo rã: 0.9 lít",
+      "Mức tiêu thụ nhiên liệu": "2,20 lít/100km",
+      "Loại truyền động": "Tự động, vô cấp",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "14,1 N・m/6.500 vòng/phút",
+      "Dung tích xy-lanh": "156,9 cm³",
+      "Đường kính x Hành trình pít tông": "60,0 x 55,5 mm",
+      "Tỷ số nén": "12,0 : 1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "Vario 125",
+    "name": "Honda Vario 125 Đặc Biệt",
+    "slug": "honda-vario-125",
+    "version": "Đặc Biệt",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?version=19",
+    "price_vnd": 41913818,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Xanh Đen",
+        "color_hex": "#0080c0",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643437/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643437/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643437/0.png"
+      },
+      {
+        "color_name": "Đỏ Đen",
+        "color_hex": "#ed0707",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643681/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643681/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643681/0.png"
+      },
+      {
+        "color_name": "Đen",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643652/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643652/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/August2026/1785643652/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "111 kg",
+      "Dài x Rộng x Cao": "1919 mm x 687 mm x 1075 mm",
+      "Khoảng cách trục bánh xe": "1280 mm",
+      "Độ cao yên": "769 mm",
+      "Khoảng sáng gầm xe": "131 mm",
+      "Dung tích bình xăng": "5,5 lít",
+      "Kích cỡ lốp trước/ sau": "Trước: 90/80 - 14M/C 43P Sau: 100/80-14M/C 48P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ đơn, giảm chấn thủy lực",
+      "Loại động cơ": "4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+      "Công suất tối đa": "8,48kW/8500 vòng/phút",
+      "Dung tích nhớt máy": "Xả: 0,8 lít Tháo rã: 0,9 lít Thay lọc dầu: 0,8 lít",
+      "Mức tiêu thụ nhiên liệu": "2,11l/100km",
+      "Loại truyền động": "Vô cấp, điều khiển tự động",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "11,9Nm/5000 vòng/phút",
+      "Dung tích xy-lanh": "125 cm3",
+      "Đường kính x Hành trình pít tông": "52,400 x 57,907 mm",
+      "Tỷ số nén": "11,0 : 01"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "SH350i",
+    "name": "Honda SH350i Phiên Bản Thể Thao",
+    "slug": "honda-sh350i",
+    "version": "Phiên Bản Thể Thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/sh350i?version=76",
+    "price_vnd": 152890000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Xanh đen",
+        "color_hex": "#4a9665",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2024/1730800747/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2024/1730800747/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/November2024/1730800747/0.png"
+      },
+      {
+        "color_name": "Xám đen",
+        "color_hex": "#686464",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2024/1730800509/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/November2024/1730800509/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/November2024/1730800509/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "172 kg",
+      "Dài x Rộng x Cao": "2.160 mm x 743 mm x 1.162 mm",
+      "Khoảng cách trục bánh xe": "1.450 mm",
+      "Độ cao yên": "805 mm",
+      "Khoảng sáng gầm xe": "132 mm",
+      "Dung tích bình xăng": "9,3 lít",
+      "Kích cỡ lốp trước/ sau": "Trước: 110/70-16 M/C 52S Sau: 130/70R16 M/C 61S",
+      "Phuộc trước": "Phuộc ống lồng giảm chấn thủy lực",
+      "Phuộc sau": "Phuộc sau đôi, lò xo trụ, giảm chấn thủy lực",
+      "Loại động cơ": "Xăng 4 kỳ, 1 xi lanh, làm mát chất lỏng",
+      "Công suất tối đa": "21,5 kW/7.500 vòng/phút",
+      "Dung tích nhớt máy": "Sau khi xả: 1,4 lít Sau khi xả và thay lưới lọc: 1,5 lít Sau khi rã máy: 1,85 lít",
+      "Mức tiêu thụ nhiên liệu": "3.63 l/100km",
+      "Loại truyền động": "Biến thiên vô cấp",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "31,8 Nm/5.250 vòng/phút",
+      "Dung tích xy-lanh": "329,6 cm3",
+      "Đường kính x Hành trình pít tông": "77 mm x 70,77 mm",
+      "Tỷ số nén": "10,5:1",
+      "Hệ thống phanh": "ABS 2 kênh bánh trước và sau"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "Future 125 FI",
+    "name": "Honda Future 125 FI Phiên bản Đặc biệt",
+    "slug": "honda-future-125-fi",
+    "version": "Phiên bản Đặc biệt",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?version=62",
+    "price_vnd": 32292000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Bạc đen xám",
+        "color_hex": "#b3adad",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2025/1761614933/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2025/1761614933/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/October2025/1761614933/0.png"
+      },
+      {
+        "color_name": "Xanh đen bạc",
+        "color_hex": "#181ca0",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2025/1761615927/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2025/1761615927/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/October2025/1761615927/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "104 kg",
+      "Dài x Rộng x Cao": "1.931 x 711 x 1.083mm",
+      "Khoảng cách trục bánh xe": "1.258 mm",
+      "Độ cao yên": "756 mm",
+      "Khoảng sáng gầm xe": "133 mm",
+      "Dung tích bình xăng": "4,6 L",
+      "Kích cỡ lốp trước/ sau": "Lốp trước: 70/90-17M/C 38P Lốp sau: 80/90-17M/C 50P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ, giảm chấn thủy lực",
+      "Loại động cơ": "Xăng 4 kỳ, 1 xi lanh làm mát bằng không khí",
+      "Công suất tối đa": "6,83 kW / 7.500 vòng/phút",
+      "Dung tích nhớt máy": "Sau khi xả 0,7 lít Sau khi rã máy 0,9 lít",
+      "Mức tiêu thụ nhiên liệu": "1,47 Lít/100km",
+      "Hộp số": "4 số tròn",
+      "Hệ thống khởi động": "Đạp chân / Điện",
+      "Moment cực đại": "10,2 Nm / 5.500 vòng/phút",
+      "Dung tích xy-lanh": "124,9 cm3",
+      "Đường kính x Hành trình pít tông": "52,400 x 57,913 mm",
+      "Tỷ số nén": "9,3 : 1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "Blade",
+    "name": "Honda Blade Phiên bản Thể Thao",
+    "slug": "honda-blade",
+    "version": "Phiên bản Thể Thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/blade?version=22",
+    "price_vnd": 21943637,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Đen",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582594/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582594/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582594/0.png"
+      },
+      {
+        "color_name": "Đen Đỏ",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582707/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582707/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582707/0.png"
+      },
+      {
+        "color_name": "Đen Xanh",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582788/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582788/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/October2024/1729582788/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "99 kg (vành đúc) 98 kg (vành nan hoa, phanh trước loại phanh cơ) 99 kg (vành nan hoa, phanh trước loại phanh đĩa)",
+      "Dài x Rộng x Cao": "1.920 x 702 x 1.075 mm",
+      "Khoảng cách trục bánh xe": "1.217 mm",
+      "Độ cao yên": "769mm",
+      "Khoảng sáng gầm xe": "141mm",
+      "Dung tích bình xăng": "3,7 L",
+      "Kích cỡ lốp trước/ sau": "Trước: 70/90 -17 M/C 38P Sau: 80/90 - 17 M/C 50P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ, giảm chấn thủy lực",
+      "Loại động cơ": "Xăng, 4 kỳ, 1 xilanh, làm mát bằng không khí",
+      "Công suất tối đa": "6,18 kW/7.500 vòng/phút",
+      "Dung tích nhớt máy": "0,8 lít khi thay nhớt 1,0 lít khi rã máy",
+      "Mức tiêu thụ nhiên liệu": "1,85l/100 km",
+      "Hộp số": "Cơ khí, 4 số tròn",
+      "Hệ thống khởi động": "Đạp chân/Điện",
+      "Moment cực đại": "8,65 Nm/5.500 vòng/phút",
+      "Dung tích xy-lanh": "109,1 cm3",
+      "Đường kính x Hành trình pít tông": "50,0 x 55,6 mm",
+      "Tỷ số nén": "9,0 : 1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "Wave Alpha 110",
+    "name": "Honda Wave Alpha 110 Phiên bản đặc biệt",
+    "slug": "honda-wave-alpha-110",
+    "version": "Phiên bản đặc biệt",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?version=5",
+    "price_vnd": 18841091,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Đen nhám",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2024/1725011319/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2024/1725011319/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/August2024/1725011319/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "96 kg",
+      "Dài x Rộng x Cao": "1.913 mm x 689 mm x 1.076 mm",
+      "Khoảng cách trục bánh xe": "1.224 mm",
+      "Độ cao yên": "770 mm",
+      "Khoảng sáng gầm xe": "134 mm",
+      "Dung tích bình xăng": "3,7 L",
+      "Kích cỡ lốp trước/ sau": "Lốp trước 70/90-17M/C 38P Lốp sau 80/90-17M/C 50P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ, giảm chấn thủy lực",
+      "Loại động cơ": "4 kỳ, 1 xilanh, làm mát bằng không khí",
+      "Công suất tối đa": "6,12 kW/ 7.500 vòng/ phút",
+      "Dung tích nhớt máy": "Sau khi xả 0,8 L Sau khi rã máy 1,0 L",
+      "Mức tiêu thụ nhiên liệu": "1,72 l/100km",
+      "Loại truyền động": "Cơ khí, 4 số tròn",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "8,44 Nm/ 5.500 vòng/ phút",
+      "Dung tích xy-lanh": "109,2 cm3",
+      "Đường kính x Hành trình pít tông": "50,0 x 55,6 mm",
+      "Tỷ số nén": "9,0 : 1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "Wave RSX",
+    "name": "Honda Wave RSX Phiên bản Thể thao",
+    "slug": "honda-wave-rsx",
+    "version": "Phiên bản Thể thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?version=81",
+    "price_vnd": 25664727,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Xanh đen",
+        "color_hex": "#1a1e93",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754545246/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754545246/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754545246/0.png"
+      },
+      {
+        "color_name": "Đỏ đen",
+        "color_hex": "#e91c1c",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754545221/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754545221/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754545221/0.png"
+      },
+      {
+        "color_name": "Xám đen",
+        "color_hex": "#a1a1a1",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754547368/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754547368/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/August2025/1754547368/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "98 kg",
+      "Dài x Rộng x Cao": "1922 mm x 709 mm x 1082 mm",
+      "Khoảng cách trục bánh xe": "1227 mm",
+      "Độ cao yên": "760mm",
+      "Khoảng sáng gầm xe": "135mm",
+      "Dung tích bình xăng": "4,0 L",
+      "Kích cỡ lốp trước/ sau": "Lốp trước: 70/90 - 17 M/C 38P Lốp sau: 80/90 - 17 M/C 50P",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ, giảm chấn thủy lực",
+      "Loại động cơ": "Xăng, 4 kỳ, 1 xilanh, làm mát bằng không khí",
+      "Công suất tối đa": "6,46 kW / 7.500 vòng/phút",
+      "Dung tích nhớt máy": "0,8 lít khi thay nhớt 1,0 lít khi rã máy",
+      "Mức tiêu thụ nhiên liệu": "1,56 L/100 km",
+      "Hộp số": "Cơ khí, 4 số vòng",
+      "Hệ thống khởi động": "Đạp chân/Điện",
+      "Moment cực đại": "8,70 Nm/6.000 vòng/phút",
+      "Dung tích xy-lanh": "109,2 cm3",
+      "Đường kính x Hành trình pít tông": "50,00 x 55,60 mm",
+      "Tỷ số nén": "9,3 : 1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "CBR150R",
+    "name": "Honda CBR150R Phiên bản Thể Thao",
+    "slug": "honda-cbr150r",
+    "version": "Phiên bản Thể Thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/cbr150r?version=61",
+    "price_vnd": 73790000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Theo phiên bản hãng công bố",
+        "color_hex": "#555555",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbikes/October2024/eZBStod5l7EoGjGslDKa.png"
+        ]
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "139kg",
+      "Dài x Rộng x Cao": "1.983 x 700 x 1.090 mm",
+      "Khoảng cách trục bánh xe": "1.312 mm",
+      "Độ cao yên": "788 mm",
+      "Khoảng sáng gầm xe": "151 mm",
+      "Dung tích bình xăng": "12 lít",
+      "Kích cỡ lốp trước/ sau": "Trước: 100/80-17M/C Sau: 130/70-17M/C",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực, hành trình ngược",
+      "Phuộc sau": "Lò xo trụ đơn sử dụng liên kết Pro-Link",
+      "Loại động cơ": "4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+      "Công suất tối đa": "12,6kW/9.000 vòng/phút",
+      "Dung tích nhớt máy": "Sau khi xả 1,1 lít Sau khi rã máy 1,3 lít",
+      "Mức tiêu thụ nhiên liệu": "2,91l/100km**",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "14,4Nm/7.000 vòng/phút",
+      "Dung tích xy-lanh": "149,2 cm3",
+      "Đường kính x Hành trình pít tông": "57,3 mm x 57,8 mm",
+      "Tỷ số nén": "11,3:1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Honda",
+    "model": "WINNER R",
+    "name": "Honda WINNER R Phiên bản Thể Thao",
+    "slug": "honda-winner-r",
+    "version": "Phiên bản Thể Thao",
+    "source_url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?version=37",
+    "price_vnd": 50760000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Đỏ Đen",
+        "color_hex": "#e90707",
+        "image_urls": [
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/September2025/1757787378/1.png",
+          "https://cdn.honda.com.vn/motorbike-versions/Image360/September2025/1757787378/2.png"
+        ],
+        "original_360_entry_url": "https://cdn.honda.com.vn/motorbike-versions/Image360/September2025/1757787378/0.png"
+      }
+    ],
+    "specifications": {
+      "Khối lượng bản thân": "124kg",
+      "Dài x Rộng x Cao": "2013 x 725 x 1075 mm",
+      "Khoảng cách trục bánh xe": "1277 mm",
+      "Độ cao yên": "795 mm",
+      "Khoảng sáng gầm xe": "153 mm",
+      "Dung tích bình xăng": "4,5 lít",
+      "Kích cỡ lốp trước/ sau": "Trước: 90/80-17 Sau: 120/70-17",
+      "Phuộc trước": "Ống lồng, giảm chấn thủy lực",
+      "Phuộc sau": "Lò xo trụ đơn",
+      "Loại động cơ": "HONDA KC46E, Xăng, 4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+      "Công suất tối đa": "11,5 kW/9000 vòng/phút",
+      "Dung tích nhớt máy": "\"1,1 lít khi thay nhớt 1,3 lít khi rã máy\"",
+      "Mức tiêu thụ nhiên liệu": "2,59 L/100km*",
+      "Hệ thống khởi động": "Điện",
+      "Moment cực đại": "13,5 N.m/7000 vòng/phút",
+      "Dung tích xy-lanh": "149,2 cm3",
+      "Đường kính x Hành trình pít tông": "57,30 mm x 57,84 mm",
+      "Tỷ số nén": "11,3:1"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Grande",
+    "name": "Yamaha Grande phiên bản tiêu chuẩn màu mới nhất 2025",
+    "slug": "yamaha-grande",
+    "version": "Grande phiên bản tiêu chuẩn màu mới nhất 2025",
+    "source_url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "price_vnd": 46637000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Đỏ đen",
+        "color_hex": "#dd3333",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2024/11/Grande-STD-Dark-Red-Metallic-004-1024x860.png"
+        ]
+      },
+      {
+        "color_name": "Đen",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2024/11/Grande-STD-Black-Metallic-004-1024x860.png"
+        ]
+      }
+    ],
+    "specifications": {
+      "Loại": "Blue Core Hybrid, làm mát bằng không khí, 4 thì, 2 van, xy-lanh đơn",
+      "Bố trí xi lanh": "Xy lanh đơn",
+      "Dung tích xy lanh (CC)": "124.9 cc",
+      "Đường kính và hành trình piston": "52.4 x 57.9 mm",
+      "Tỷ số nén": "11.0 : 1",
+      "Công suất tối đa": "6.05/6.500 kW/rpm",
+      "Mô men xoắn cực đại": "9,77 / 5000 (Nm/rpm)",
+      "Hệ thống khởi động": "Khởi động điện",
+      "Hệ thống bôi trơn": "Dầu bôi trơn",
+      "Dung tích dầu máy": "0.84 L",
+      "Dung tích bình xăng": "4.0 L",
+      "Mức tiêu thụ nhiên liệu (l/100km)": "1.73",
+      "Hệ thống đánh lửa": "T.C.I (kỹ thuật số)",
+      "Hệ thống ly hợp": "Khô",
+      "Tỷ số truyền động": "Tỷ số truyền đai: 2,512-0,822 Tỷ số truyền cuối cùng: 50/17x37/14=7,773 Tỷ số truyền toàn bộ: 19,526-6,389",
+      "Loại khung": "Underbone",
+      "Hệ thống giảm xóc trước": "Lò xo trụ, giảm chấn thủy lực",
+      "Độ lệch phương trục lái": "26.7 độ",
+      "Hệ thống giảm xóc sau": "Lò xo trụ, giảm chấn thủy lực",
+      "Phanh trước": "Phanh đĩa đơn thủy lực",
+      "Phanh sau": "Phanh tang trống",
+      "Lốp trước": "110/70-12 47L (MAXXIS-M6219Y)",
+      "Lốp sau": "110/70-12 47L (MAXXIS-M6220)",
+      "Đèn trước": "LED",
+      "Kích thước (dài x rộng x cao)": "1820mm x 684mm x 1155mm",
+      "Độ cao gầm xe": "127mm",
+      "Trọng lượng ướt": "100kg",
+      "Thời gian bảo hành": "3 năm hoặc 30.000km (tuỳ theo điều kiện nào đến trước)"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    },
+    "source_notes": [
+      "Chiều cao yên không được công bố trong bảng của trang nguồn.",
+      "Giá trị khoảng cách trục bánh xe ở nguồn là D nên không nhập vào dữ liệu."
+    ]
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Janus",
+    "name": "Yamaha Janus phiên bản đặc biệt màu mới 2025",
+    "slug": "yamaha-janus",
+    "version": "Janus phiên bản đặc biệt màu mới 2025",
+    "source_url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+    "price_vnd": 33382000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Đỏ - Đen",
+        "color_hex": "#dd3333",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2026/04/Ja-Pre-2024-Red-Candy-004.png"
+        ]
+      },
+      {
+        "color_name": "Đen",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2026/04/Ja-Pre-2024-Mat-Black-004.png"
+        ]
+      },
+      {
+        "color_name": "Xanh - Đen",
+        "color_hex": "#094582",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2026/04/Ja-Pre-2024-Mat-Blue-004.png"
+        ]
+      }
+    ],
+    "specifications": {
+      "Loại": "Xăng 4 kỳ, làm mát bằng không khí",
+      "Bố trí xi lanh": "Xy lanh đơn",
+      "Dung tích xy lanh (CC)": "124.9 cm3",
+      "Đường kính và hành trình piston": "52,4 mm x 57,9 mm",
+      "Tỷ số nén": "9,5 : 1",
+      "Công suất tối đa": "7,0 kW/8.000 vòng/phút",
+      "Mô men xoắn cực đại": "9.6 Nm/5500 vòng/phút",
+      "Hệ thống khởi động": "Điện",
+      "Mức tiêu thụ nhiên liệu (l/100km)": "1,98",
+      "Hệ thống cung cấp nhiên liệu": "Phun xăng điện tử - FI",
+      "Kiểu hệ thống truyền lực": "Ly hợp ma sát khô. Hộp số tự động, vô cấp CVT",
+      "Điện áp ắc quy": "12V - 5Ah",
+      "Loại khung": "Underbone",
+      "Hệ thống giảm xóc trước": "Lò xo trụ, giảm chấn thuỷ lực",
+      "Hệ thống giảm xóc sau": "Lò xo trụ, giảm chấn thuỷ lực",
+      "Phanh trước": "Phanh đĩa dẫn động thủy lực",
+      "Phanh sau": "Phanh tang trống dẫn động cơ khí",
+      "Lốp trước": "Lốp không săm 80/80-14M/C 43P",
+      "Lốp sau": "Lốp không săm 100/70-14M/C 51P",
+      "Kích thước (dài x rộng x cao)": "1850 mm x 705 mm x 1120 mm",
+      "Độ cao yên xe": "770 mm",
+      "Chiều dài yên xe": "760 mm (+77mm so với phiên bản cũ)",
+      "Độ cao gầm xe": "135 mm",
+      "Khoảng cách giữa 2 trục bánh xe": "1260 mm",
+      "Trọng lượng": "99 Kg",
+      "Dung tích bình xăng": "4,2 L",
+      "Ngăn chứa đồ": "15.3 L (+1,1 L so với phiên bản cũ)",
+      "Sàn để chân": "Rộng hơn (+20 mm so với phiên bản cũ)",
+      "Thời gian bảo hành": "3 năm/ 30.000 km (Tùy điều kiện nào đến trước)"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Yamaha",
+    "model": "FreeGo S ABS",
+    "name": "Yamaha Freego S ABS phiên bản đặc biệt màu mới",
+    "slug": "yamaha-freego-s-abs",
+    "version": "Freego S ABS phiên bản đặc biệt màu mới",
+    "source_url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+    "price_vnd": 34855000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Đen - Đỏ",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2025/08/FreeGo_Sport-B4UC_Den-Do-Bong_Goc-4-1024x860.png"
+        ]
+      },
+      {
+        "color_name": "Đen - Vàng",
+        "color_hex": "#000000",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2025/08/FreeGo_Sport-B4UC_Den-Vang-Dong-Nham_Goc-4-1024x860.png"
+        ]
+      },
+      {
+        "color_name": "Bạc - Đen",
+        "color_hex": "#bfbfbf",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2025/08/FreeGo_Sport-B4UC_Bac-Nham_Goc-4-1024x860.png"
+        ]
+      },
+      {
+        "color_name": "Xám vàng - Xám",
+        "color_hex": "#998a3a",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2025/08/FreeGo_Sport-B4UC_Xam-Cafe-Nham_Goc-4-1024x860.png"
+        ]
+      }
+    ],
+    "specifications": {
+      "Loại": "Blue Core, 4 kỳ, 2 van, SOHC, Làm mát bằng không khí cưỡng bức",
+      "Bố trí xi lanh": "Xy - lanh đơn",
+      "Dung tích xy lanh (CC)": "124.9",
+      "Đường kính và hành trình piston": "52,4 × 57,9 mm",
+      "Tỷ số nén": "9,5:1",
+      "Công suất tối đa": "7,0 kW (9,5 PS) / 8.000 vòng/phút",
+      "Mô men xoắn cực đại": "9,0 N·m / 5500 v/ph",
+      "Hệ thống khởi động": "Điện",
+      "Hệ thống bôi trơn": "Các te ướt",
+      "Dung tích dầu máy": "0,84 L",
+      "Dung tích bình xăng": "3,9 L",
+      "Mức tiêu thụ nhiên liệu (l/100km)": "2,03",
+      "Hệ thống đánh lửa": "T.C.I (kỹ thuật số)",
+      "Tỷ số truyền sơ cấp và thứ cấp": "1,000/10,156 (50/16 x 39/12)",
+      "Hệ thống ly hợp": "Khô, ly tâm tự động",
+      "Tỷ số truyền động": "2,420 - 0,810 : 1",
+      "Kiểu hệ thống truyền lực": "CVT",
+      "Loại khung": "Underbone",
+      "Hệ thống giảm xóc trước": "Lò xo trụ giảm chấn thủy lực",
+      "Hành trình phuộc trước": "90 mm",
+      "Hệ thống giảm xóc sau": "Giảm chấn thủy lực lò xo trụ",
+      "Hành trình giảm xóc sau": "80 mm",
+      "Phanh trước": "Đĩa thuỷ lực trang bị ABS",
+      "Phanh sau": "Phanh tang trống, cơ khí",
+      "Lốp trước": "100/90 – 12 59J (Không săm)",
+      "Lốp sau": "110/90 – 12 64L (Không săm)",
+      "Đèn trước": "LED",
+      "Đèn sau": "21.0 W/5.0 W",
+      "Kích thước (dài x rộng x cao)": "1.915 mm × 685 mm × 1.110 mm",
+      "Độ cao yên xe": "780 mm",
+      "Độ cao gầm xe": "135 mm",
+      "Khoảng cách giữa 2 trục bánh xe": "1280 mm",
+      "Trọng lượng ướt": "102 kg",
+      "Ngăn chứa đồ": "25",
+      "Thời gian bảo hành": "3 năm hoặc 30.000 km (tuỳ theo điều kiện nào đến trước)"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  },
+  {
+    "brand": "Yamaha",
+    "model": "PG-1 ABS",
+    "name": "Yamaha PG-1 ABS mới phiên bản giới hạn",
+    "slug": "yamaha-pg-1-abs",
+    "version": "PG-1 ABS mới phiên bản giới hạn",
+    "source_url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+    "price_vnd": 35837000,
+    "price_basis": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh",
+    "is_electric": false,
+    "variants": [
+      {
+        "color_name": "Xanh Camo",
+        "color_hex": "#2e592f",
+        "image_urls": [
+          "https://yamaha-motor.com.vn/wp/wp-content/uploads/2025/09/PG-1_LTD-DG12_Xanh-Camo_Goc-4-1024x860.png"
+        ]
+      }
+    ],
+    "specifications": {
+      "Loại": "4 kỳ, 1 xi lanh, làm mát bằng không khí",
+      "Bố trí xi lanh": "Xi lanh đơn",
+      "Dung tích xy lanh (CC)": "113.7 cm3",
+      "Đường kính và hành trình piston": "50 x 57.9 mm",
+      "Tỷ số nén": "9.3:1",
+      "Công suất tối đa": "6.6kW/ 7,000 vòng/phút",
+      "Mô men xoắn cực đại": "9.5Nm/ 5,500 vòng/ phút",
+      "Hệ thống khởi động": "Khởi động điện",
+      "Hệ thống bôi trơn": "Cacte ướt",
+      "Dung tích dầu máy": "0.8 L",
+      "Dung tích bình xăng": "5.1 L",
+      "Bộ chế hòa khí": "Phun xăng điện tử",
+      "Hệ thống đánh lửa": "TCI (kỹ thuật số)",
+      "Tỷ số truyền sơ cấp và thứ cấp": "2,900 (58/20) / 3,077 (40/13)",
+      "Hệ thống ly hợp": "Đa đĩa ly tâm tự động loại ướt",
+      "Tỷ số truyền động": "1: 2,833 (34/ 12)/ 2:1,875 (30/ 16)/ 3: 1,353 (23/17)/ 4: 1,045 (23/ 22)",
+      "Kiểu hệ thống truyền lực": "Truyền động xích, chuyển số bằng chân",
+      "Điện áp ắc quy": "12V 3.5Ah",
+      "Loại khung": "Khung xương sống",
+      "Hệ thống giảm xóc trước": "Phuộc ống lồng/ Giảm xóc tay đòn (hệ thống treo liên kết)",
+      "Hệ thống giảm xóc sau": "Phuộc ống lồng/ Giảm xóc tay đòn (hệ thống treo liên kết)",
+      "Phanh trước": "Phanh đĩa/ ABS/ Thuỷ lực",
+      "Phanh sau": "Phanh tang trống/ Cơ khí",
+      "Lốp trước": "90/ 100-16M/ C 51P (lốp có săm)",
+      "Lốp sau": "90/ 100-16M/ C 51P (lốp có săm)",
+      "Đèn sau": "5W/ 21W",
+      "Đèn báo rẽ (trước/sau)": "35W/ 10W",
+      "Kích thước (dài x rộng x cao)": "1,980 mm x 805 mm x 1,055 mm",
+      "Độ cao yên xe": "795 mm",
+      "Khoảng cách giữa 2 trục bánh xe": "1,280 mm",
+      "Trọng lượng": "109 kg",
+      "Khoảng sáng gầm xe tối thiểu": "190 mm",
+      "Thời gian bảo hành": "3 năm hoặc 30,000 km tuỳ theo điều kiện nào đến trước"
+    },
+    "checked_at": "2026-10-06",
+    "image_validation": {
+      "checked_at": "2026-10-06",
+      "status": "All variant image URLs returned HTTP 200 and image content type."
+    }
+  }
+]

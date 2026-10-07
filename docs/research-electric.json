@@ -1,0 +1,594 @@
+[
+  {
+    "name": "VinFast Feliz 2025",
+    "slug": "vinfast-feliz-2025",
+    "brand": "VinFast",
+    "price": 26000000,
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-feliz",
+    "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/feliz-2025/hinh-anh-vinfast-feliz-2025-mau-xanh-la-cay-mobile.webp",
+    "imageColor": "Xanh rêu",
+    "motorPowerKw": 2.8,
+    "battery": "LFP 2,4 kWh; tùy chọn thêm pin phụ 2,4 kWh",
+    "batteryKwh": 2.4,
+    "rangeKm": 262,
+    "rangeNote": "262 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin.",
+    "maxSpeedKph": 70,
+    "seatHeightMm": 780,
+    "brakes": null,
+    "specs": {
+      "Kích thước": "1920 × 694 × 1140 mm",
+      "Chiều cao yên": "780 mm",
+      "Công suất tối đa": "2800 W",
+      "Dung lượng pin": "2,4 kWh + pin phụ tùy chọn 2,4 kWh",
+      "Loại pin": "LFP",
+      "Tốc độ tối đa": "70 km/h",
+      "Quãng đường tối đa": "262 km khi lắp pin phụ",
+      "Thể tích cốp": "34 L"
+    },
+    "notes": [
+      "Giá niêm yết hiển thị trên trang sản phẩm, khác tài liệu giá cũ.",
+      "Trang có đoạn mô tả 3000 W nhưng bảng kỹ thuật ghi 2800 W; sử dụng bảng kỹ thuật."
+    ],
+    "variants": [
+      {
+        "color": "Xanh rêu",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/feliz-2025/hinh-anh-vinfast-feliz-2025-mau-xanh-la-cay-mobile.webp"
+      },
+      {
+        "color": "Trắng ngọc trai",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/feliz-2025/hinh-anh-vinfast-feliz-2025-mau-trang-mobile.webp"
+      },
+      {
+        "color": "Đen bóng",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/feliz-2025/hinh-anh-vinfast-feliz-2025-mau-den-mobile.webp"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu.",
+    "availabilityVerified": false
+  },
+  {
+    "name": "VinFast Evo Grand",
+    "slug": "vinfast-evo-grand",
+    "brand": "VinFast",
+    "price": 22500000,
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-mau-do-goc-ngang-mobile.webp",
+    "imageColor": "Đỏ tươi",
+    "motorPowerKw": 2.25,
+    "battery": "LFP 2,4 kWh; tùy chọn thêm pin phụ 2,4 kWh",
+    "batteryKwh": 2.4,
+    "rangeKm": 262,
+    "rangeNote": "262 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin.",
+    "maxSpeedKph": 70,
+    "seatHeightMm": 770,
+    "brakes": "Phanh cơ",
+    "specs": {
+      "Kích thước": "1856 × 683 × 1133 mm",
+      "Chiều cao yên": "770 mm",
+      "Công suất tối đa": "2250 W",
+      "Dung lượng pin": "2,4 kWh + pin phụ tùy chọn 2,4 kWh",
+      "Loại pin": "LFP",
+      "Tốc độ tối đa": "70 km/h",
+      "Quãng đường tối đa": "262 km khi lắp pin phụ",
+      "Thể tích cốp": "35 L"
+    },
+    "notes": [
+      "Giá niêm yết hiển thị trên trang sản phẩm."
+    ],
+    "variants": [
+      {
+        "color": "Đỏ tươi",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-mau-do-goc-ngang-mobile.webp"
+      },
+      {
+        "color": "Trắng ngọc trai",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-mau-trang-goc-ngang-mobile.webp"
+      },
+      {
+        "color": "Đen",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-mau-den-goc-ngang-mobile.webp"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu.",
+    "availabilityVerified": false
+  },
+  {
+    "name": "VinFast Evo Grand Lite",
+    "slug": "vinfast-evo-grand-lite",
+    "brand": "VinFast",
+    "price": 16500000,
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-lite",
+    "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand-lite/hinh-anh-vinfast-evo-grand-lite-mau-tim-mobile.webp",
+    "imageColor": "Tím",
+    "motorPowerKw": 1.9,
+    "battery": "LFP 1,2 kWh; tùy chọn thêm pin phụ 2,4 kWh",
+    "batteryKwh": 1.2,
+    "rangeKm": 198,
+    "rangeNote": "198 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin.",
+    "maxSpeedKph": 48,
+    "seatHeightMm": 770,
+    "brakes": "Phanh cơ",
+    "specs": {
+      "Kích thước": "1856 × 683 × 1133 mm",
+      "Chiều cao yên": "770 mm",
+      "Công suất tối đa": "1900 W",
+      "Dung lượng pin": "1,2 kWh + pin phụ tùy chọn 2,4 kWh",
+      "Loại pin": "LFP",
+      "Tốc độ tối đa": "48 km/h",
+      "Quãng đường tối đa": "198 km khi lắp pin phụ",
+      "Thể tích cốp": "35 L"
+    },
+    "notes": [
+      "Giá niêm yết hiển thị trên trang sản phẩm."
+    ],
+    "variants": [
+      {
+        "color": "Tím",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand-lite/hinh-anh-vinfast-evo-grand-lite-mau-tim-mobile.webp"
+      },
+      {
+        "color": "Trắng ngọc trai",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand-lite/hinh-anh-vinfast-evo-grand-lite-mau-trang-mobile.webp"
+      },
+      {
+        "color": "Đen",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand-lite/hinh-anh-vinfast-evo-grand-lite-mau-den-mobile.webp"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu.",
+    "availabilityVerified": false
+  },
+  {
+    "name": "VinFast Flazz",
+    "slug": "vinfast-flazz",
+    "brand": "VinFast",
+    "price": 14200000,
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-flazz",
+    "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/flazz/hinh-anh-vinfast-flazz-mau-do-mobile.webp",
+    "imageColor": "Đỏ tươi",
+    "motorPowerKw": 1.1,
+    "battery": "LFP 1,2 kWh; tùy chọn thêm pin phụ 1,2 kWh",
+    "batteryKwh": 1.2,
+    "rangeKm": 135,
+    "rangeNote": "135 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin.",
+    "maxSpeedKph": 39,
+    "seatHeightMm": 760,
+    "brakes": null,
+    "specs": {
+      "Kích thước": "1745 × 700 × 1050 mm",
+      "Chiều cao yên": "760 mm",
+      "Công suất tối đa": "1100 W",
+      "Dung lượng pin": "1,2 kWh + pin phụ tùy chọn 1,2 kWh",
+      "Loại pin": "LFP",
+      "Tốc độ tối đa": "39 km/h",
+      "Quãng đường tối đa": "135 km khi lắp pin phụ"
+    },
+    "notes": [
+      "Giá niêm yết hiển thị trên trang sản phẩm.",
+      "Trang mô tả cốp 14 L nhưng bảng kỹ thuật ghi 12 L; không đưa cốp vào thông số seed."
+    ],
+    "variants": [
+      {
+        "color": "Đỏ tươi",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/flazz/hinh-anh-vinfast-flazz-mau-do-mobile.webp"
+      },
+      {
+        "color": "Trắng đen",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/flazz/hinh-anh-vinfast-flazz-mau-trang-mobile.webp"
+      },
+      {
+        "color": "Đen bóng",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/flazz/hinh-anh-vinfast-flazz-mau-den-mobile.webp"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu.",
+    "availabilityVerified": false
+  },
+  {
+    "name": "VinFast ZGoo",
+    "slug": "vinfast-zgoo",
+    "brand": "VinFast",
+    "price": 13300000,
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-zgoo",
+    "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/zgoo/hinh-anh-vinfast-zgoo-mau-xanh-la-cay-mobile.webp",
+    "imageColor": "Xanh rêu",
+    "motorPowerKw": 1.1,
+    "battery": "LFP 1,2 kWh",
+    "batteryKwh": 1.2,
+    "rangeKm": 70,
+    "rangeNote": "70 km theo công bố của nhà sản xuất; quãng đường thực tế phụ thuộc điều kiện sử dụng.",
+    "maxSpeedKph": 39,
+    "seatHeightMm": 760,
+    "brakes": null,
+    "specs": {
+      "Kích thước": "1720 × 700 × 1050 mm",
+      "Chiều cao yên": "760 mm",
+      "Công suất tối đa": "1100 W",
+      "Dung lượng pin": "1,2 kWh",
+      "Loại pin": "LFP",
+      "Tốc độ tối đa": "39 km/h",
+      "Quãng đường tối đa": "70 km",
+      "Thể tích cốp": "14 L"
+    },
+    "notes": [
+      "Giá niêm yết hiển thị trên trang sản phẩm."
+    ],
+    "variants": [
+      {
+        "color": "Xanh rêu",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/zgoo/hinh-anh-vinfast-zgoo-mau-xanh-la-cay-mobile.webp"
+      },
+      {
+        "color": "Đen bóng",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/zgoo/hinh-anh-vinfast-zgoo-mau-den-mobile.webp"
+      },
+      {
+        "color": "Đỏ tươi",
+        "imageUrl": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/zgoo/hinh-anh-vinfast-zgoo-mau-do-mobile.webp"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu.",
+    "availabilityVerified": false
+  },
+  {
+    "name": "YADEA OVA",
+    "slug": "yadea-ova",
+    "brand": "YADEA",
+    "price": 18190000,
+    "sourceUrl": "https://www.yadea.com.vn/thong-tin-san-pham/yadea-ova/",
+    "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2026/03/Ova-Anh-ngang-cac-mau-1-1.png",
+    "imageColor": "Xanh phối kem",
+    "motorPowerKw": 1.45,
+    "battery": "Ắc quy Graphene TTFAR 3 Plus 60V22Ah",
+    "batteryKwh": null,
+    "rangeKm": 80,
+    "rangeNote": "80 km trong điều kiện kiểm thử tiêu chuẩn của YADEA.",
+    "maxSpeedKph": 44,
+    "seatHeightMm": 740,
+    "brakes": "Đĩa trước / tang trống sau",
+    "specs": {
+      "Kích thước": "1600 × 670 × 1070 mm",
+      "Chiều cao yên": "740 mm",
+      "Công suất định danh": "350 W",
+      "Công suất tối đa": "1450 W",
+      "Ắc quy": "Graphene TTFAR 3 Plus 60V22Ah",
+      "Tốc độ tối đa": "44 km/h",
+      "Quãng đường tối đa": "80 km",
+      "Thời gian sạc": "7–8 giờ",
+      "Khối lượng": "88 kg",
+      "Phanh": "Đĩa trước / tang trống sau"
+    },
+    "notes": [
+      "Tên màu Xanh phối kem là mô tả màu nhìn thấy trong ảnh; chưa xác nhận tên thương mại."
+    ],
+    "variants": [
+      {
+        "color": "Xanh phối kem",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2026/03/Ova-Anh-ngang-cac-mau-1-1.png"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu.",
+    "availabilityVerified": false
+  },
+  {
+    "name": "YADEA VOLTGUARD U50",
+    "slug": "yadea-voltguard-u50",
+    "brand": "YADEA",
+    "price": 38990000,
+    "sourceUrl": "https://www.yadea.com.vn/thong-tin-san-pham/yadea-voltguard-u50/",
+    "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2025/11/v002-U50-Anh-chinh-ngang-1280x880px.png",
+    "imageColor": "Xám",
+    "motorPowerKw": 2.8,
+    "battery": "LFP 72V50Ah",
+    "batteryKwh": null,
+    "rangeKm": 200,
+    "rangeNote": "200 km ở tốc độ 35 km/h theo nhà sản xuất.",
+    "maxSpeedKph": 63,
+    "seatHeightMm": 770,
+    "brakes": "Phanh đĩa",
+    "specs": {
+      "Kích thước": "1945 × 715 × 1130 mm",
+      "Chiều cao yên": "770 mm",
+      "Công suất danh định": "1500 W",
+      "Công suất tối đa": "2800 W",
+      "Pin": "LFP 72V50Ah",
+      "Tốc độ tối đa": "63 km/h",
+      "Quãng đường tối đa": "200 km ở 35 km/h",
+      "Thời gian sạc": "5–6 giờ",
+      "Khối lượng": "118 kg",
+      "Phanh": "Phanh đĩa"
+    },
+    "notes": [],
+    "variants": [
+      {
+        "color": "Xám",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2025/11/v002-U50-Anh-chinh-ngang-1280x880px.png"
+      },
+      {
+        "color": "Đỏ",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2025/11/V002-U50-do-co-bong-1.png"
+      },
+      {
+        "color": "Trắng",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2025/11/V002-U50-trang-co-bong.png"
+      },
+      {
+        "color": "Đen",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2025/11/V002-U50-den-co-bong-1.png"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu.",
+    "availabilityVerified": false
+  },
+  {
+    "name": "YADEA VELAX U",
+    "slug": "yadea-velax-u",
+    "brand": "YADEA",
+    "price": 52990000,
+    "priceSourceUrl": "https://www.yadea.com.vn/san-pham/yadea-velax-u/",
+    "priceNote": "Giá trang bán hàng chính hãng, đã bao gồm VAT.",
+    "sourceUrl": "https://www.yadea.com.vn/thong-tin-san-pham/yadea-velax-u-2026/",
+    "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2026/01/xam.png",
+    "imageColor": "Xám",
+    "motorPowerKw": 4.737,
+    "battery": "Lithium-ion NMC 74V27Ah × 2",
+    "batteryKwh": null,
+    "rangeKm": 173,
+    "rangeNote": "173 km theo thông số WMTC trên trang sản phẩm.",
+    "maxSpeedKph": 94,
+    "seatHeightMm": 760,
+    "brakes": "Đĩa trước và sau + CBS",
+    "specs": {
+      "Kích thước": "1960 × 704 × 1100 mm",
+      "Chiều cao yên": "760 mm",
+      "Công suất định danh": "3000 W",
+      "Công suất tối đa": "4737 W",
+      "Pin": "Lithium-ion NMC 74V27Ah × 2",
+      "Tốc độ tối đa": "94 km/h",
+      "Quãng đường tối đa": "173 km (WMTC)",
+      "Khối lượng": "121 kg",
+      "Phanh": "Đĩa trước và sau + CBS"
+    },
+    "notes": [
+      "Dùng bảng kỹ thuật trang sản phẩm: NMC và 4737 W; bài tổng hợp giá dùng LFP/4900 W khác biệt."
+    ],
+    "variants": [
+      {
+        "color": "Xám",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2026/01/xam.png"
+      },
+      {
+        "color": "Đỏ",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2025/12/anh-ngang-1280x880-do.png"
+      },
+      {
+        "color": "Trắng",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2025/12/anh-ngang-1280x880-trang.png"
+      },
+      {
+        "color": "Đen",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2026/01/den.png"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "availabilityVerified": false
+  },
+  {
+    "name": "YADEA ORLA P",
+    "slug": "yadea-orla-p",
+    "brand": "YADEA",
+    "price": 21690000,
+    "sourceUrl": "https://www.yadea.com.vn/thong-tin-san-pham/yadea-orla-2024/",
+    "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2024/06/orla-beige.png",
+    "imageColor": "Be",
+    "motorPowerKw": 1.7,
+    "battery": "Ắc quy Graphene TTFAR 60V22Ah",
+    "batteryKwh": null,
+    "rangeKm": 65,
+    "rangeNote": "65 km với người lái 65 kg ở tốc độ 30 km/h.",
+    "maxSpeedKph": 48,
+    "seatHeightMm": 760,
+    "brakes": "Đĩa trước / tang trống sau",
+    "specs": {
+      "Kích thước": "1810 × 670 × 1140 mm",
+      "Chiều cao yên": "760 mm",
+      "Công suất danh định": "800 W",
+      "Công suất tối đa": "1700 W",
+      "Ắc quy": "Graphene TTFAR 60V22Ah",
+      "Tốc độ tối đa": "48 km/h",
+      "Quãng đường tối đa": "65 km (65 kg, 30 km/h)",
+      "Thời gian sạc": "7–8 giờ",
+      "Khối lượng": "108 kg",
+      "Phanh": "Đĩa trước / tang trống sau"
+    },
+    "notes": [],
+    "variants": [
+      {
+        "color": "Be",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2024/06/orla-beige.png"
+      },
+      {
+        "color": "Hồng",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2023/10/orla-pink.png"
+      },
+      {
+        "color": "Đen",
+        "imageUrl": "https://www.yadea.com.vn/wp-content/uploads/2023/10/orla-black-detail.png"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu.",
+    "availabilityVerified": false
+  },
+  {
+    "name": "Dat Bike Quantum S1",
+    "slug": "dat-bike-quantum-s1",
+    "brand": "Dat Bike",
+    "price": 49900000,
+    "priceNote": "Giá màu Cam/Đen/Xanh, đã gồm pin, sạc và VAT. Trắng/Xám 50.900.000 đ.",
+    "sourceUrl": "https://dat.bike/xe-may-dien-quantum-s1/",
+    "imageUrl": "https://dat.bike/wp-content/uploads/2025/10/S1_orange_small_2ef75d0a-8872-43ea-8d32-7423ecfa300f.png?v=1730261954",
+    "imageColor": "Cam",
+    "motorPowerKw": 7,
+    "battery": "6,4 kWh",
+    "batteryKwh": 6.4,
+    "rangeKm": 285,
+    "rangeNote": "285 km theo công bố nhà sản xuất; thực tế phụ thuộc điều kiện sử dụng.",
+    "maxSpeedKph": 100,
+    "seatHeightMm": 790,
+    "brakes": "CBS 2 piston, phanh tái sinh",
+    "specs": {
+      "Kích thước": "2010 × 710 × 1110 mm",
+      "Chiều cao yên": "790 mm",
+      "Công suất động cơ": "7000 W",
+      "Pin": "6,4 kWh",
+      "Tốc độ tối đa": "100 km/h",
+      "Quãng đường tối đa": "285 km",
+      "Thời gian sạc": "4 giờ (sạc 1800 W)",
+      "Khối lượng": "144 kg",
+      "Phanh": "CBS 2 piston, phanh tái sinh"
+    },
+    "notes": [],
+    "variants": [
+      {
+        "color": "Cam",
+        "price": 49900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/10/S1_orange_small_2ef75d0a-8872-43ea-8d32-7423ecfa300f.png?v=1730261954"
+      },
+      {
+        "color": "Trắng",
+        "price": 50900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/10/S1_white_small_c468104e-bb7a-4b59-8c3c-09f5db09f135.png?v=1730261953"
+      },
+      {
+        "color": "Đen",
+        "price": 49900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/10/S1_black_small_37711329-51bc-4d91-aa84-9dbc51e4c169.png?v=1730261953"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "availabilityVerified": false
+  },
+  {
+    "name": "Dat Bike Quantum S2",
+    "slug": "dat-bike-quantum-s2",
+    "brand": "Dat Bike",
+    "price": 42900000,
+    "priceNote": "Giá màu Cam/Đen/Xanh, đã gồm pin, sạc và VAT. Trắng/Xám 43.900.000 đ.",
+    "sourceUrl": "https://dat.bike/xe-may-dien-quantum-s2/",
+    "imageUrl": "https://dat.bike/wp-content/uploads/2025/11/image_2025-11-06_161051730-scaled.png",
+    "imageColor": "Cam",
+    "motorPowerKw": 6,
+    "battery": "6,4 kWh",
+    "batteryKwh": 6.4,
+    "rangeKm": 285,
+    "rangeNote": "285 km theo bảng kỹ thuật trên trang sản phẩm.",
+    "maxSpeedKph": 90,
+    "seatHeightMm": 760,
+    "brakes": "Đĩa thủy lực trước/sau, phanh tái sinh",
+    "specs": {
+      "Kích thước": "2010 × 710 × 1110 mm",
+      "Chiều cao yên": "760 mm",
+      "Công suất động cơ": "6000 W",
+      "Pin": "6,4 kWh",
+      "Tốc độ tối đa": "90 km/h",
+      "Quãng đường tối đa": "285 km",
+      "Thời gian sạc": "7 giờ (900 W) / 4 giờ (1800 W)",
+      "Khối lượng": "144 kg",
+      "Phanh": "Đĩa thủy lực trước/sau, phanh tái sinh"
+    },
+    "notes": [
+      "Trang sản phẩm chính hãng ghi 285 km/6,4 kWh; bài bảng giá chính hãng hiển thị bảng gộp cột gây mơ hồ 200 km. Dùng trang sản phẩm.",
+      "Trang S2 và S3 đang dùng cùng bộ URL ảnh màu chính hãng."
+    ],
+    "variants": [
+      {
+        "color": "Cam",
+        "price": 42900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/11/image_2025-11-06_161051730-scaled.png"
+      },
+      {
+        "color": "Trắng",
+        "price": 43900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/11/image_2025-11-06_161106812-scaled.png"
+      },
+      {
+        "color": "Đen",
+        "price": 42900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/11/image_2025-11-06_161102191-scaled.png"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "availabilityVerified": false
+  },
+  {
+    "name": "Dat Bike Quantum S3",
+    "slug": "dat-bike-quantum-s3",
+    "brand": "Dat Bike",
+    "price": 34900000,
+    "priceNote": "Giá màu Cam/Đen/Xanh, đã gồm pin, sạc và VAT. Trắng/Xám 35.900.000 đ.",
+    "sourceUrl": "https://dat.bike/xe-may-dien-quantum-s3/",
+    "imageUrl": "https://dat.bike/wp-content/uploads/2025/11/image_2025-11-06_161051730-scaled.png",
+    "imageColor": "Cam",
+    "motorPowerKw": 6,
+    "battery": "4,3 kWh",
+    "batteryKwh": 4.3,
+    "rangeKm": 200,
+    "rangeNote": "200 km theo công bố nhà sản xuất; thực tế phụ thuộc điều kiện sử dụng.",
+    "maxSpeedKph": 90,
+    "seatHeightMm": 760,
+    "brakes": "Đĩa thủy lực trước/sau, phanh tái sinh",
+    "specs": {
+      "Kích thước": "2010 × 710 × 1110 mm",
+      "Chiều cao yên": "760 mm",
+      "Công suất động cơ": "6000 W",
+      "Pin": "4,3 kWh",
+      "Tốc độ tối đa": "90 km/h",
+      "Quãng đường tối đa": "200 km",
+      "Thời gian sạc": "5 giờ (900 W) / 2 giờ 30 phút (1800 W)",
+      "Khối lượng": "130 kg",
+      "Phanh": "Đĩa thủy lực trước/sau, phanh tái sinh"
+    },
+    "notes": [
+      "Trang S2 và S3 đang dùng cùng bộ URL ảnh màu chính hãng."
+    ],
+    "variants": [
+      {
+        "color": "Cam",
+        "price": 34900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/11/image_2025-11-06_161051730-scaled.png"
+      },
+      {
+        "color": "Trắng",
+        "price": 35900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/11/image_2025-11-06_161106812-scaled.png"
+      },
+      {
+        "color": "Đen",
+        "price": 34900000,
+        "imageUrl": "https://dat.bike/wp-content/uploads/2025/11/image_2025-11-06_161102191-scaled.png"
+      }
+    ],
+    "type": "electric",
+    "checkedAt": "2026-10-06",
+    "availabilityVerified": false
+  }
+]

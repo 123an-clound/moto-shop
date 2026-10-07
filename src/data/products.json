@@ -1,0 +1,4053 @@
+[
+  {
+    "id": "ae4782e9-9144-5ce4-a962-eb4f5e66ddaf",
+    "slug": "honda-vision",
+    "name": "Honda Vision Phiên bản Thể thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 36808363,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 109,5 cc, chiều cao yên 785 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": true,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 109.5,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 785,
+    "brake": "",
+    "variants": [
+      {
+        "id": "1c63ec4b-1d1a-5bc1-9e50-26a43908c37b",
+        "colorName": "Bạc đen",
+        "colorHex": "#f2f2f2",
+        "images": [
+          "/images/products/honda-vision-0.webp",
+          "/images/products/honda-vision-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "a23b03d5-5c15-56df-801d-760f57c40e51",
+        "colorName": "Đen",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/honda-vision-2.webp",
+          "/images/products/honda-vision-3.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "6baefcd9-b420-5ba6-8384-3615ff2fca63",
+        "colorName": "Xám đen",
+        "colorHex": "#cfcfcf",
+        "images": [
+          "/images/products/honda-vision-4.webp",
+          "/images/products/honda-vision-5.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "97 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1.925 mm x 686 mm x 1.126 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1.277 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "785 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "175 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "4,8 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Lốp trước: 80/90-16M/C 43P Lốp sau: 90/90-14M/C 46P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ đơn, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng, 4 kỳ, 1 xi lanh, làm mát bằng không khí",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "6,59 kW/7.500 vòng/ phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Sau khi xả 0,65 lít Sau khi rã máy 0,8 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "1,82 lít/100 km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "9,29 Nm/6.000 vòng/ phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "109,5 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "47,0 mm x 63,1 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "10:1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/vision?version=103",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "1f5fffa3-74a6-588d-8858-e453c0f87f95",
+    "slug": "honda-air-blade-160",
+    "name": "Honda Air Blade 160 phiên bản Thể Thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 58790000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 156,9 cc, chiều cao yên 775 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": true,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 156.9,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 775,
+    "brake": "",
+    "variants": [
+      {
+        "id": "2014459f-d3a1-508d-8433-eec1ab896e71",
+        "colorName": "Trắng Đỏ Đen",
+        "colorHex": "#ffffff",
+        "images": [
+          "/images/products/honda-air-blade-160-0.webp",
+          "/images/products/honda-air-blade-160-1.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "113kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1887mm x 686mm x 1086mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1286mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "775mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "142mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "4,4L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Trước: 90/80-14M/C 43P Sau : 100/80 -14M/C 48P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng, 4 kỳ, 1 xi-lanh, làm mát bằng chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "11,2kW/8000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "0,8 lít khi thay nhớt 0,9 lít khi rã máy",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "2,23l/100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại truyền động",
+        "value": "Dây đai, biến thiên vô cấp",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "14,8 N.m/6000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "156,9 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "60,00mm x 55,50mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "12,0:1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?version=85",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "20feb9e0-f2f1-5205-b3d6-f17e4c1feb12",
+    "slug": "honda-lead-abs",
+    "name": "Honda LEAD ABS Phiên bản Đặc biệt",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 45841091,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 124,8 cc, chiều cao yên 760 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 124.8,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 760,
+    "brake": "ABS",
+    "variants": [
+      {
+        "id": "42ea094b-f5fe-5290-aa6f-16c6cf056e07",
+        "colorName": "Bạc Đen",
+        "colorHex": "#c7c7c7",
+        "images": [
+          "/images/products/honda-lead-abs-0.webp",
+          "/images/products/honda-lead-abs-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "fc097ac0-4eb2-5e6a-b726-5e55f59756b8",
+        "colorName": "Xanh Đen",
+        "colorHex": "#36435e",
+        "images": [
+          "/images/products/honda-lead-abs-2.webp",
+          "/images/products/honda-lead-abs-3.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "513dc046-be10-5d4b-b17d-a479b641b66e",
+        "colorName": "Đen Nâu",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/honda-lead-abs-4.webp",
+          "/images/products/honda-lead-abs-5.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "114 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1844mm x 714mm x 1132mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1273 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "760 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "140 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "6,0 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Trước: 90/90-12 44J Sau: 100/90-10 56J",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng 4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "8,22kW/8500 vòng/ phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Sau khi xả 0,8 lít Sau khi tháo lọc dầu 0.85 lít Sau khi rã máy 0.9 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "2.1 lít/100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại truyền động",
+        "value": "Truyền động đai",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Khởi động điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "11,7Nm/5250 vòng/ phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "124,8 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "53,5 mm x 55,5 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "11,5:1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?version=91",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "8ff44bb8-482e-56fb-8d78-4b2216d1476f",
+    "slug": "honda-sh-mode-125",
+    "name": "Honda Sh mode 125 Phiên bản Thể thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 66361091,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 124,8 cc, chiều cao yên 765 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 124.8,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 765,
+    "brake": "",
+    "variants": [
+      {
+        "id": "87af223a-fb53-572c-bcff-2fc5f4de0f9f",
+        "colorName": "Trắng đen",
+        "colorHex": "#eeebe7",
+        "images": [
+          "/images/products/honda-sh-mode-125-0.webp",
+          "/images/products/honda-sh-mode-125-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "8e6df7f8-623e-5f70-8e7a-546d82a508dc",
+        "colorName": "Xám đen",
+        "colorHex": "#9e9e9e",
+        "images": [
+          "/images/products/honda-sh-mode-125-2.webp",
+          "/images/products/honda-sh-mode-125-3.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "116kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1950 mm x 668 mm x 1110 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1304 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "765 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "151 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "5,6 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Lốp trước 80/90-16M/C 43P Lốp sau 100/90-14M/C 57P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Phuộc đơn",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng, 4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "8,2kW / 8500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Sau khi xả 0,8 L Sau khi xả và vệ sinh lưới lọc 0,9 L Sau khi rã máy 0,9 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "2,16 L / 100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại truyền động",
+        "value": "Tự động, vô cấp",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Bộ khởi động điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "11,7 N.m / 5000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "124,8 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "53,5 x 55,5 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "11,5:1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?version=115",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "41b2af1f-e614-5689-b7db-51ae8a69ce25",
+    "slug": "honda-sh160i",
+    "name": "Honda SH160i Phiên bản Thể Thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 104490000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 156,9 cc, chiều cao yên 799 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 156.9,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 799,
+    "brake": "",
+    "variants": [
+      {
+        "id": "ab5ca3b9-f9af-56a7-bee6-f0c003950ed8",
+        "colorName": "Xám Đen Đỏ",
+        "colorHex": "#969292",
+        "images": [
+          "/images/products/honda-sh160i-0.webp",
+          "/images/products/honda-sh160i-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "8747f545-6995-5a68-8822-a05ceb5245ff",
+        "colorName": "Xanh Đen Đỏ",
+        "colorHex": "#86c185",
+        "images": [
+          "/images/products/honda-sh160i-2.webp",
+          "/images/products/honda-sh160i-3.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "134kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "2.090mm x 739mm x 1.156mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1.353mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "799mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "146mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "7 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "100/80 - 16 M/C 50P 120/80 - 16 M/C 60P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng, 4 kỳ, 1 xy-lanh, làm mát bằng chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "12,4kW/8.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Sau khi thay nhớt: 0,8 lít Sau khi thay nhớt và vệ sinh lưới lọc dầu: 0,85 lít Sau khi rã máy: 0,9 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "2,34 Lít /100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại truyền động",
+        "value": "Hệ thống truyền động đai",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "14,8N.m / 6.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "156,9cm³",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "60,000mm x 55,502mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "12,0:1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/sh160i125i?version=95",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "8f98e1f7-4da2-5c0b-9bac-624727f6c7f5",
+    "slug": "honda-vario-160",
+    "name": "Honda Vario 160 Thể Thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 56690000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 156,9 cc, chiều cao yên 778 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 156.9,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 778,
+    "brake": "",
+    "variants": [
+      {
+        "id": "6072fbfa-4d40-503d-9b4b-59a985afcb06",
+        "colorName": "Xám Đen Bạc",
+        "colorHex": "#a9a7a7",
+        "images": [
+          "/images/products/honda-vario-160-0.webp",
+          "/images/products/honda-vario-160-1.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "118 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1929 mmx695 mm x 1088 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1.278 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "778 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "138 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "5,5 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Lốp trước:100/80-14 M/C48P Lốp sau:120/70-14 M/C61P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng, 4 kỳ, 1 xy - lanh, làm mát bằng chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "11,3kW/8.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Khi thay dầu: 0.8 lít Khi tháo lọc dầu: 0.85 lít Khi tháo rã: 0.9 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "2,20 lít/100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại truyền động",
+        "value": "Tự động, vô cấp",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "14,1 N・m/6.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "156,9 cm³",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "60,0 x 55,5 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "12,0 : 1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/vario-160?version=46",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "5f4f65af-7e6e-5768-946a-900d3fa52529",
+    "slug": "honda-vario-125",
+    "name": "Honda Vario 125 Đặc Biệt",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 41913818,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 125 cc, chiều cao yên 769 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 125,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 769,
+    "brake": "",
+    "variants": [
+      {
+        "id": "e045d8fc-e64b-5286-9edf-19930553673c",
+        "colorName": "Xanh Đen",
+        "colorHex": "#0080c0",
+        "images": [
+          "/images/products/honda-vario-125-0.webp",
+          "/images/products/honda-vario-125-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "f9125b46-d8e4-510b-b206-c22d7cc74a33",
+        "colorName": "Đỏ Đen",
+        "colorHex": "#ed0707",
+        "images": [
+          "/images/products/honda-vario-125-2.webp",
+          "/images/products/honda-vario-125-3.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "216233e8-d022-5d64-a048-042bf0aa22d6",
+        "colorName": "Đen",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/honda-vario-125-4.webp",
+          "/images/products/honda-vario-125-5.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "111 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1919 mm x 687 mm x 1075 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1280 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "769 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "131 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "5,5 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Trước: 90/80 - 14M/C 43P Sau: 100/80-14M/C 48P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ đơn, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "8,48kW/8500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Xả: 0,8 lít Tháo rã: 0,9 lít Thay lọc dầu: 0,8 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "2,11l/100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại truyền động",
+        "value": "Vô cấp, điều khiển tự động",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "11,9Nm/5000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "125 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "52,400 x 57,907 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "11,0 : 01",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/vario-125?version=19",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "e5b90869-f970-5535-908e-b2b000b0b478",
+    "slug": "honda-sh350i",
+    "name": "Honda SH350i Phiên Bản Thể Thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 152890000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 329,6 cc, chiều cao yên 805 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": true,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 329.6,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 805,
+    "brake": "ABS",
+    "variants": [
+      {
+        "id": "e963180c-ef7a-5aeb-a176-43896b38fcfb",
+        "colorName": "Xanh đen",
+        "colorHex": "#4a9665",
+        "images": [
+          "/images/products/honda-sh350i-0.webp",
+          "/images/products/honda-sh350i-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "043094a7-de1c-5094-8b18-e6f90e4267e7",
+        "colorName": "Xám đen",
+        "colorHex": "#686464",
+        "images": [
+          "/images/products/honda-sh350i-2.webp",
+          "/images/products/honda-sh350i-3.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "172 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "2.160 mm x 743 mm x 1.162 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1.450 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "805 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "132 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "9,3 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Trước: 110/70-16 M/C 52S Sau: 130/70R16 M/C 61S",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Phuộc ống lồng giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Phuộc sau đôi, lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng 4 kỳ, 1 xi lanh, làm mát chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "21,5 kW/7.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Sau khi xả: 1,4 lít Sau khi xả và thay lưới lọc: 1,5 lít Sau khi rã máy: 1,85 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "3.63 l/100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại truyền động",
+        "value": "Biến thiên vô cấp",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "31,8 Nm/5.250 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "329,6 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "77 mm x 70,77 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "10,5:1",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "ABS 2 kênh bánh trước và sau",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/sh350i?version=76",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "eb1a9eb2-5a73-5615-8e33-a88c27157a24",
+    "slug": "honda-future-125-fi",
+    "name": "Honda Future 125 FI Phiên bản Đặc biệt",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 32292000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 124,9 cc, chiều cao yên 756 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 124.9,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 756,
+    "brake": "",
+    "variants": [
+      {
+        "id": "8f594a76-59bd-59b4-9db1-22e3884636ee",
+        "colorName": "Bạc đen xám",
+        "colorHex": "#b3adad",
+        "images": [
+          "/images/products/honda-future-125-fi-0.webp",
+          "/images/products/honda-future-125-fi-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "55cf9362-d803-5621-bebd-0efd7bf5b2c7",
+        "colorName": "Xanh đen bạc",
+        "colorHex": "#181ca0",
+        "images": [
+          "/images/products/honda-future-125-fi-2.webp",
+          "/images/products/honda-future-125-fi-3.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "104 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1.931 x 711 x 1.083mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1.258 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "756 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "133 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "4,6 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Lốp trước: 70/90-17M/C 38P Lốp sau: 80/90-17M/C 50P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng 4 kỳ, 1 xi lanh làm mát bằng không khí",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "6,83 kW / 7.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Sau khi xả 0,7 lít Sau khi rã máy 0,9 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "1,47 Lít/100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hộp số",
+        "value": "4 số tròn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Đạp chân / Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "10,2 Nm / 5.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "124,9 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "52,400 x 57,913 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "9,3 : 1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?version=62",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "9430bc92-9a32-5ffe-a96a-b6e533e0c54a",
+    "slug": "honda-blade",
+    "name": "Honda Blade Phiên bản Thể Thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 21943637,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 109,1 cc, chiều cao yên 769 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 109.1,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 769,
+    "brake": "",
+    "variants": [
+      {
+        "id": "f3b0ae50-4585-5640-81d5-3db7fa0cd9a2",
+        "colorName": "Đen",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/honda-blade-0.webp",
+          "/images/products/honda-blade-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "7049a854-abd6-59ea-9734-5f1a8b6bda03",
+        "colorName": "Đen Đỏ",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/honda-blade-2.webp",
+          "/images/products/honda-blade-3.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "fc34e4dd-fc6e-5664-93d3-1a40bc41ef85",
+        "colorName": "Đen Xanh",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/honda-blade-4.webp",
+          "/images/products/honda-blade-5.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "99 kg (vành đúc) 98 kg (vành nan hoa, phanh trước loại phanh cơ) 99 kg (vành nan hoa, phanh trước loại phanh đĩa)",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1.920 x 702 x 1.075 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1.217 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "769mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "141mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "3,7 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Trước: 70/90 -17 M/C 38P Sau: 80/90 - 17 M/C 50P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng, 4 kỳ, 1 xilanh, làm mát bằng không khí",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "6,18 kW/7.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "0,8 lít khi thay nhớt 1,0 lít khi rã máy",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "1,85l/100 km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hộp số",
+        "value": "Cơ khí, 4 số tròn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Đạp chân/Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "8,65 Nm/5.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "109,1 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "50,0 x 55,6 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "9,0 : 1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/blade?version=22",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "46f4ea27-d0a2-5243-99bb-c32f5c05f213",
+    "slug": "honda-wave-alpha-110",
+    "name": "Honda Wave Alpha 110 Phiên bản đặc biệt",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 18841091,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 109,2 cc, chiều cao yên 770 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 109.2,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 770,
+    "brake": "",
+    "variants": [
+      {
+        "id": "7dc5274b-e329-506e-822a-f74028acc399",
+        "colorName": "Đen nhám",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/honda-wave-alpha-110-0.webp",
+          "/images/products/honda-wave-alpha-110-1.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "96 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1.913 mm x 689 mm x 1.076 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1.224 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "770 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "134 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "3,7 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Lốp trước 70/90-17M/C 38P Lốp sau 80/90-17M/C 50P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "4 kỳ, 1 xilanh, làm mát bằng không khí",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "6,12 kW/ 7.500 vòng/ phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Sau khi xả 0,8 L Sau khi rã máy 1,0 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "1,72 l/100km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại truyền động",
+        "value": "Cơ khí, 4 số tròn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "8,44 Nm/ 5.500 vòng/ phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "109,2 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "50,0 x 55,6 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "9,0 : 1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?version=5",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "271f7a34-71aa-5f59-9899-2cdf5aba9488",
+    "slug": "honda-wave-rsx",
+    "name": "Honda Wave RSX Phiên bản Thể thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 25664727,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 109,2 cc, chiều cao yên 760 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 109.2,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 760,
+    "brake": "",
+    "variants": [
+      {
+        "id": "4219e45d-0d1f-5bb7-9048-0949b8a27df4",
+        "colorName": "Xanh đen",
+        "colorHex": "#1a1e93",
+        "images": [
+          "/images/products/honda-wave-rsx-0.webp",
+          "/images/products/honda-wave-rsx-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "7c67c87f-2666-5176-bf58-02926aaf41f8",
+        "colorName": "Đỏ đen",
+        "colorHex": "#e91c1c",
+        "images": [
+          "/images/products/honda-wave-rsx-2.webp",
+          "/images/products/honda-wave-rsx-3.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "5669abef-56ac-56b7-9c0c-3e66b815eb55",
+        "colorName": "Xám đen",
+        "colorHex": "#a1a1a1",
+        "images": [
+          "/images/products/honda-wave-rsx-4.webp",
+          "/images/products/honda-wave-rsx-5.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "98 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1922 mm x 709 mm x 1082 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1227 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "760mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "135mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "4,0 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Lốp trước: 70/90 - 17 M/C 38P Lốp sau: 80/90 - 17 M/C 50P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "Xăng, 4 kỳ, 1 xilanh, làm mát bằng không khí",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "6,46 kW / 7.500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "0,8 lít khi thay nhớt 1,0 lít khi rã máy",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "1,56 L/100 km",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hộp số",
+        "value": "Cơ khí, 4 số vòng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Đạp chân/Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "8,70 Nm/6.000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "109,2 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "50,00 x 55,60 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "9,3 : 1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?version=81",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "1fdc03b6-c33b-50a7-99ff-5e1e73c74097",
+    "slug": "honda-cbr150r",
+    "name": "Honda CBR150R Phiên bản Thể Thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 73790000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 149,2 cc, chiều cao yên 788 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 149.2,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 788,
+    "brake": "",
+    "variants": [
+      {
+        "id": "325218fd-8340-5b0a-8953-e49bbd6b59dd",
+        "colorName": "Theo phiên bản hãng công bố",
+        "colorHex": "#555555",
+        "images": [
+          "/images/products/honda-cbr150r-0.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "139kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "1.983 x 700 x 1.090 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1.312 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "788 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "151 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "12 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Trước: 100/80-17M/C Sau: 130/70-17M/C",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực, hành trình ngược",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ đơn sử dụng liên kết Pro-Link",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "12,6kW/9.000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "Sau khi xả 1,1 lít Sau khi rã máy 1,3 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "2,91l/100km**",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "14,4Nm/7.000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "149,2 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "57,3 mm x 57,8 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "11,3:1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/cbr150r?version=61",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "cd637abe-1c68-5dbe-9c21-17586923a7e1",
+    "slug": "honda-winner-r",
+    "name": "Honda WINNER R Phiên bản Thể Thao",
+    "brand": "Honda",
+    "type": "gasoline",
+    "price": 50760000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 149,2 cc, chiều cao yên 795 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 149.2,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 795,
+    "brake": "",
+    "variants": [
+      {
+        "id": "8751ce98-b0b6-5d45-b603-27ebdc84031e",
+        "colorName": "Đỏ Đen",
+        "colorHex": "#e90707",
+        "images": [
+          "/images/products/honda-winner-r-0.webp",
+          "/images/products/honda-winner-r-1.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Khối lượng bản thân",
+        "value": "124kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dài x Rộng x Cao",
+        "value": "2013 x 725 x 1075 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách trục bánh xe",
+        "value": "1277 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên",
+        "value": "795 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe",
+        "value": "153 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "4,5 lít",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kích cỡ lốp trước/ sau",
+        "value": "Trước: 90/80-17 Sau: 120/70-17",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc trước",
+        "value": "Ống lồng, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phuộc sau",
+        "value": "Lò xo trụ đơn",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Loại động cơ",
+        "value": "HONDA KC46E, Xăng, 4 kỳ, 1 xi lanh, làm mát bằng chất lỏng",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "11,5 kW/9000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích nhớt máy",
+        "value": "\"1,1 lít khi thay nhớt 1,3 lít khi rã máy\"",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu",
+        "value": "2,59 L/100km*",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Moment cực đại",
+        "value": "13,5 N.m/7000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy-lanh",
+        "value": "149,2 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính x Hành trình pít tông",
+        "value": "57,30 mm x 57,84 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "11,3:1",
+        "group": "Động cơ"
+      }
+    ],
+    "sourceUrl": "https://www.honda.com.vn/xe-may/san-pham/winner-r?version=37",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "f2521cdd-b22e-5020-897c-2951e54aac8c",
+    "slug": "yamaha-grande",
+    "name": "Yamaha Grande phiên bản tiêu chuẩn màu mới nhất 2025",
+    "brand": "Yamaha",
+    "type": "gasoline",
+    "price": 46637000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 124,9 cc. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": true,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 124.9,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": null,
+    "brake": "",
+    "variants": [
+      {
+        "id": "f84dfc84-dc54-5ca5-8621-75a5fe3cc808",
+        "colorName": "Đỏ đen",
+        "colorHex": "#dd3333",
+        "images": [
+          "/images/products/yamaha-grande-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "dcf6b664-f643-5e99-800e-5001fb4c87b0",
+        "colorName": "Đen",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/yamaha-grande-1.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Loại",
+        "value": "Blue Core Hybrid, làm mát bằng không khí, 4 thì, 2 van, xy-lanh đơn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Bố trí xi lanh",
+        "value": "Xy lanh đơn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy lanh (CC)",
+        "value": "124.9 cc",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính và hành trình piston",
+        "value": "52.4 x 57.9 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "11.0 : 1",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "6.05/6.500 kW/rpm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mô men xoắn cực đại",
+        "value": "9,77 / 5000 (Nm/rpm)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Khởi động điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống bôi trơn",
+        "value": "Dầu bôi trơn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích dầu máy",
+        "value": "0.84 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "4.0 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu (l/100km)",
+        "value": "1.73",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống đánh lửa",
+        "value": "T.C.I (kỹ thuật số)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống ly hợp",
+        "value": "Khô",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số truyền động",
+        "value": "Tỷ số truyền đai: 2,512-0,822 Tỷ số truyền cuối cùng: 50/17x37/14=7,773 Tỷ số truyền toàn bộ: 19,526-6,389",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại khung",
+        "value": "Underbone",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Hệ thống giảm xóc trước",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Độ lệch phương trục lái",
+        "value": "26.7 độ",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Hệ thống giảm xóc sau",
+        "value": "Lò xo trụ, giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phanh trước",
+        "value": "Phanh đĩa đơn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phanh sau",
+        "value": "Phanh tang trống",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Lốp trước",
+        "value": "110/70-12 47L (MAXXIS-M6219Y)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Lốp sau",
+        "value": "110/70-12 47L (MAXXIS-M6220)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Đèn trước",
+        "value": "LED",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Kích thước (dài x rộng x cao)",
+        "value": "1820mm x 684mm x 1155mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao gầm xe",
+        "value": "127mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Trọng lượng ướt",
+        "value": "100kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Thời gian bảo hành",
+        "value": "3 năm hoặc 30.000km (tuỳ theo điều kiện nào đến trước)",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "0eec20de-dc59-5615-bd17-62fc8c5dce97",
+    "slug": "yamaha-janus",
+    "name": "Yamaha Janus phiên bản đặc biệt màu mới 2025",
+    "brand": "Yamaha",
+    "type": "gasoline",
+    "price": 33382000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 124,9 cc, chiều cao yên 770 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 124.9,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 770,
+    "brake": "",
+    "variants": [
+      {
+        "id": "78db9f3a-909c-5910-99fe-e992423ee140",
+        "colorName": "Đỏ - Đen",
+        "colorHex": "#dd3333",
+        "images": [
+          "/images/products/yamaha-janus-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "4ce7e41a-b75f-5f7f-8223-67d1c34cbdda",
+        "colorName": "Đen",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/yamaha-janus-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "ecfd5664-ea54-5e3a-879a-6dd66d41ea44",
+        "colorName": "Xanh - Đen",
+        "colorHex": "#094582",
+        "images": [
+          "/images/products/yamaha-janus-2.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Loại",
+        "value": "Xăng 4 kỳ, làm mát bằng không khí",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Bố trí xi lanh",
+        "value": "Xy lanh đơn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy lanh (CC)",
+        "value": "124.9 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính và hành trình piston",
+        "value": "52,4 mm x 57,9 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "9,5 : 1",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "7,0 kW/8.000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mô men xoắn cực đại",
+        "value": "9.6 Nm/5500 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu (l/100km)",
+        "value": "1,98",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống cung cấp nhiên liệu",
+        "value": "Phun xăng điện tử - FI",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kiểu hệ thống truyền lực",
+        "value": "Ly hợp ma sát khô. Hộp số tự động, vô cấp CVT",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Điện áp ắc quy",
+        "value": "12V - 5Ah",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Loại khung",
+        "value": "Underbone",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Hệ thống giảm xóc trước",
+        "value": "Lò xo trụ, giảm chấn thuỷ lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống giảm xóc sau",
+        "value": "Lò xo trụ, giảm chấn thuỷ lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phanh trước",
+        "value": "Phanh đĩa dẫn động thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phanh sau",
+        "value": "Phanh tang trống dẫn động cơ khí",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Lốp trước",
+        "value": "Lốp không săm 80/80-14M/C 43P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Lốp sau",
+        "value": "Lốp không săm 100/70-14M/C 51P",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Kích thước (dài x rộng x cao)",
+        "value": "1850 mm x 705 mm x 1120 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên xe",
+        "value": "770 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều dài yên xe",
+        "value": "760 mm (+77mm so với phiên bản cũ)",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao gầm xe",
+        "value": "135 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách giữa 2 trục bánh xe",
+        "value": "1260 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "99 Kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "4,2 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Ngăn chứa đồ",
+        "value": "15.3 L (+1,1 L so với phiên bản cũ)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Sàn để chân",
+        "value": "Rộng hơn (+20 mm so với phiên bản cũ)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Thời gian bảo hành",
+        "value": "3 năm/ 30.000 km (Tùy điều kiện nào đến trước)",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "9663f02c-fbb6-5d27-a4f2-a89d85475a8f",
+    "slug": "yamaha-freego-s-abs",
+    "name": "Yamaha Freego S ABS phiên bản đặc biệt màu mới",
+    "brand": "Yamaha",
+    "type": "gasoline",
+    "price": 34855000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 124,9 cc, chiều cao yên 780 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 124.9,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 780,
+    "brake": "ABS",
+    "variants": [
+      {
+        "id": "306d7237-3bbd-529d-9687-d657dd12b6a9",
+        "colorName": "Đen - Đỏ",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/yamaha-freego-s-abs-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "ec6316ea-fb08-5c85-9849-fb4d5759472c",
+        "colorName": "Đen - Vàng",
+        "colorHex": "#000000",
+        "images": [
+          "/images/products/yamaha-freego-s-abs-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "e77dcb7d-a420-5a5b-9298-2d4525efc080",
+        "colorName": "Bạc - Đen",
+        "colorHex": "#bfbfbf",
+        "images": [
+          "/images/products/yamaha-freego-s-abs-2.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "adf1c558-ae99-5603-91fc-543f86a53921",
+        "colorName": "Xám vàng - Xám",
+        "colorHex": "#998a3a",
+        "images": [
+          "/images/products/yamaha-freego-s-abs-3.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Loại",
+        "value": "Blue Core, 4 kỳ, 2 van, SOHC, Làm mát bằng không khí cưỡng bức",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Bố trí xi lanh",
+        "value": "Xy - lanh đơn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy lanh (CC)",
+        "value": "124.9",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính và hành trình piston",
+        "value": "52,4 × 57,9 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "9,5:1",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "7,0 kW (9,5 PS) / 8.000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mô men xoắn cực đại",
+        "value": "9,0 N·m / 5500 v/ph",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống bôi trơn",
+        "value": "Các te ướt",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích dầu máy",
+        "value": "0,84 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "3,9 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mức tiêu thụ nhiên liệu (l/100km)",
+        "value": "2,03",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống đánh lửa",
+        "value": "T.C.I (kỹ thuật số)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số truyền sơ cấp và thứ cấp",
+        "value": "1,000/10,156 (50/16 x 39/12)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống ly hợp",
+        "value": "Khô, ly tâm tự động",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số truyền động",
+        "value": "2,420 - 0,810 : 1",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kiểu hệ thống truyền lực",
+        "value": "CVT",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Loại khung",
+        "value": "Underbone",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Hệ thống giảm xóc trước",
+        "value": "Lò xo trụ giảm chấn thủy lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hành trình phuộc trước",
+        "value": "90 mm",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống giảm xóc sau",
+        "value": "Giảm chấn thủy lực lò xo trụ",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hành trình giảm xóc sau",
+        "value": "80 mm",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phanh trước",
+        "value": "Đĩa thuỷ lực trang bị ABS",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phanh sau",
+        "value": "Phanh tang trống, cơ khí",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Lốp trước",
+        "value": "100/90 – 12 59J (Không săm)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Lốp sau",
+        "value": "110/90 – 12 64L (Không săm)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Đèn trước",
+        "value": "LED",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Đèn sau",
+        "value": "21.0 W/5.0 W",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Kích thước (dài x rộng x cao)",
+        "value": "1.915 mm × 685 mm × 1.110 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên xe",
+        "value": "780 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao gầm xe",
+        "value": "135 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách giữa 2 trục bánh xe",
+        "value": "1280 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Trọng lượng ướt",
+        "value": "102 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Ngăn chứa đồ",
+        "value": "25",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Thời gian bảo hành",
+        "value": "3 năm hoặc 30.000 km (tuỳ theo điều kiện nào đến trước)",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "dced3780-b322-5a7b-9006-82f2270fbe27",
+    "slug": "yamaha-pg-1-abs",
+    "name": "Yamaha PG-1 ABS mới phiên bản giới hạn",
+    "brand": "Yamaha",
+    "type": "gasoline",
+    "price": 35837000,
+    "salePrice": null,
+    "description": "Xe máy xăng, dung tích 113,7 cc, chiều cao yên 795 mm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": 113.7,
+    "motorKw": null,
+    "batteryKwh": null,
+    "rangeKm": null,
+    "seatHeight": 795,
+    "brake": "ABS",
+    "variants": [
+      {
+        "id": "6183f63c-8c87-5642-968a-e5773ed1506f",
+        "colorName": "Xanh Camo",
+        "colorHex": "#2e592f",
+        "images": [
+          "/images/products/yamaha-pg-1-abs-0.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Loại",
+        "value": "4 kỳ, 1 xi lanh, làm mát bằng không khí",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Bố trí xi lanh",
+        "value": "Xi lanh đơn",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích xy lanh (CC)",
+        "value": "113.7 cm3",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Đường kính và hành trình piston",
+        "value": "50 x 57.9 mm",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số nén",
+        "value": "9.3:1",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "6.6kW/ 7,000 vòng/phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Mô men xoắn cực đại",
+        "value": "9.5Nm/ 5,500 vòng/ phút",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống khởi động",
+        "value": "Khởi động điện",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống bôi trơn",
+        "value": "Cacte ướt",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích dầu máy",
+        "value": "0.8 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung tích bình xăng",
+        "value": "5.1 L",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Bộ chế hòa khí",
+        "value": "Phun xăng điện tử",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống đánh lửa",
+        "value": "TCI (kỹ thuật số)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số truyền sơ cấp và thứ cấp",
+        "value": "2,900 (58/20) / 3,077 (40/13)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Hệ thống ly hợp",
+        "value": "Đa đĩa ly tâm tự động loại ướt",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Tỷ số truyền động",
+        "value": "1: 2,833 (34/ 12)/ 2:1,875 (30/ 16)/ 3: 1,353 (23/17)/ 4: 1,045 (23/ 22)",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Kiểu hệ thống truyền lực",
+        "value": "Truyền động xích, chuyển số bằng chân",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Điện áp ắc quy",
+        "value": "12V 3.5Ah",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Loại khung",
+        "value": "Khung xương sống",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Hệ thống giảm xóc trước",
+        "value": "Phuộc ống lồng/ Giảm xóc tay đòn (hệ thống treo liên kết)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống giảm xóc sau",
+        "value": "Phuộc ống lồng/ Giảm xóc tay đòn (hệ thống treo liên kết)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phanh trước",
+        "value": "Phanh đĩa/ ABS/ Thuỷ lực",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Phanh sau",
+        "value": "Phanh tang trống/ Cơ khí",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Lốp trước",
+        "value": "90/ 100-16M/ C 51P (lốp có săm)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Lốp sau",
+        "value": "90/ 100-16M/ C 51P (lốp có săm)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Đèn sau",
+        "value": "5W/ 21W",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Đèn báo rẽ (trước/sau)",
+        "value": "35W/ 10W",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Kích thước (dài x rộng x cao)",
+        "value": "1,980 mm x 805 mm x 1,055 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Độ cao yên xe",
+        "value": "795 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng cách giữa 2 trục bánh xe",
+        "value": "1,280 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Trọng lượng",
+        "value": "109 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Khoảng sáng gầm xe tối thiểu",
+        "value": "190 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Thời gian bảo hành",
+        "value": "3 năm hoặc 30,000 km tuỳ theo điều kiện nào đến trước",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá bán lẻ đề xuất của hãng; chưa gồm chi phí lăn bánh"
+  },
+  {
+    "id": "34cae66d-65dd-58e5-977b-b3254c965649",
+    "slug": "vinfast-feliz-2025",
+    "name": "VinFast Feliz 2025",
+    "brand": "VinFast",
+    "type": "electric",
+    "price": 26000000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 2,8 kW, quãng đường công bố 262 km, chiều cao yên 780 mm. 262 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": true,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 2.8,
+    "batteryKwh": 2.4,
+    "rangeKm": 262,
+    "seatHeight": 780,
+    "brake": "",
+    "variants": [
+      {
+        "id": "22bad96a-94bb-58e4-9c67-d8fd6ac16fca",
+        "colorName": "Xanh rêu",
+        "colorHex": "#6b765a",
+        "images": [
+          "/images/products/vinfast-feliz-2025-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "699e8db1-885a-57c6-be18-7a61fd189142",
+        "colorName": "Trắng ngọc trai",
+        "colorHex": "#eeeae1",
+        "images": [
+          "/images/products/vinfast-feliz-2025-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "5f0a1708-d04a-5ca5-8cf0-901829c21229",
+        "colorName": "Đen bóng",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/vinfast-feliz-2025-2.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1920 × 694 × 1140 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "780 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "2800 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung lượng pin",
+        "value": "2,4 kWh + pin phụ tùy chọn 2,4 kWh",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Loại pin",
+        "value": "LFP",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "70 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "262 km khi lắp pin phụ",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thể tích cốp",
+        "value": "34 L",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "262 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin.",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-feliz",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu."
+  },
+  {
+    "id": "349e0888-fe35-53c3-b149-07e370baa749",
+    "slug": "vinfast-evo-grand",
+    "name": "VinFast Evo Grand",
+    "brand": "VinFast",
+    "type": "electric",
+    "price": 22500000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 2,25 kW, quãng đường công bố 262 km, chiều cao yên 770 mm. 262 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": true,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 2.25,
+    "batteryKwh": 2.4,
+    "rangeKm": 262,
+    "seatHeight": 770,
+    "brake": "",
+    "variants": [
+      {
+        "id": "62f57856-8a27-5b81-bb91-85c4c7a48200",
+        "colorName": "Đỏ tươi",
+        "colorHex": "#b82735",
+        "images": [
+          "/images/products/vinfast-evo-grand-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "7971f90d-3aa4-5e62-84fb-798f13de349b",
+        "colorName": "Trắng ngọc trai",
+        "colorHex": "#eeeae1",
+        "images": [
+          "/images/products/vinfast-evo-grand-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "f0b546bf-3231-5e1a-a5fd-03f13bbad760",
+        "colorName": "Đen",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/vinfast-evo-grand-2.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1856 × 683 × 1133 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "770 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "2250 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung lượng pin",
+        "value": "2,4 kWh + pin phụ tùy chọn 2,4 kWh",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Loại pin",
+        "value": "LFP",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "70 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "262 km khi lắp pin phụ",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thể tích cốp",
+        "value": "35 L",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "262 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "Phanh cơ",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu."
+  },
+  {
+    "id": "c5daed6a-b35b-545e-a642-c93cec0df272",
+    "slug": "vinfast-evo-grand-lite",
+    "name": "VinFast Evo Grand Lite",
+    "brand": "VinFast",
+    "type": "electric",
+    "price": 16500000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 1,9 kW, quãng đường công bố 198 km, chiều cao yên 770 mm. 198 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 1.9,
+    "batteryKwh": 1.2,
+    "rangeKm": 198,
+    "seatHeight": 770,
+    "brake": "",
+    "variants": [
+      {
+        "id": "b6eec9f3-4f6d-5a49-baf8-49e215419ab1",
+        "colorName": "Tím",
+        "colorHex": "#857498",
+        "images": [
+          "/images/products/vinfast-evo-grand-lite-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "4c188a18-6dc2-5342-8c82-7f3009283d1c",
+        "colorName": "Trắng ngọc trai",
+        "colorHex": "#eeeae1",
+        "images": [
+          "/images/products/vinfast-evo-grand-lite-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "7e136a69-f6c8-5395-a968-0dd97eb44766",
+        "colorName": "Đen",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/vinfast-evo-grand-lite-2.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1856 × 683 × 1133 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "770 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "1900 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung lượng pin",
+        "value": "1,2 kWh + pin phụ tùy chọn 2,4 kWh",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Loại pin",
+        "value": "LFP",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "48 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "198 km khi lắp pin phụ",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thể tích cốp",
+        "value": "35 L",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "198 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "Phanh cơ",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-lite",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu."
+  },
+  {
+    "id": "04812371-b175-59be-b0ee-774aaac0ccf6",
+    "slug": "vinfast-flazz",
+    "name": "VinFast Flazz",
+    "brand": "VinFast",
+    "type": "electric",
+    "price": 14200000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 1,1 kW, quãng đường công bố 135 km, chiều cao yên 760 mm. 135 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 1.1,
+    "batteryKwh": 1.2,
+    "rangeKm": 135,
+    "seatHeight": 760,
+    "brake": "",
+    "variants": [
+      {
+        "id": "d1659e21-6793-5d3f-bac8-0068d3caf31f",
+        "colorName": "Đỏ tươi",
+        "colorHex": "#b82735",
+        "images": [
+          "/images/products/vinfast-flazz-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "736ef0dd-24d7-55f8-a611-dabd7c578a33",
+        "colorName": "Trắng đen",
+        "colorHex": "#eeeae1",
+        "images": [
+          "/images/products/vinfast-flazz-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "e6bebfd9-9e50-53f3-9a92-e6fb366833ab",
+        "colorName": "Đen bóng",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/vinfast-flazz-2.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1745 × 700 × 1050 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "760 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "1100 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung lượng pin",
+        "value": "1,2 kWh + pin phụ tùy chọn 1,2 kWh",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Loại pin",
+        "value": "LFP",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "39 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "135 km khi lắp pin phụ",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "135 km khi lắp thêm pin phụ; kiểm thử ở 30 km/h. Không phải tầm hoạt động của cấu hình 1 pin.",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-flazz",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu."
+  },
+  {
+    "id": "e880286e-4a0f-5f04-b065-f054ee934194",
+    "slug": "vinfast-zgoo",
+    "name": "VinFast ZGoo",
+    "brand": "VinFast",
+    "type": "electric",
+    "price": 13300000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 1,1 kW, quãng đường công bố 70 km, chiều cao yên 760 mm. 70 km theo công bố của nhà sản xuất; quãng đường thực tế phụ thuộc điều kiện sử dụng. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 1.1,
+    "batteryKwh": 1.2,
+    "rangeKm": 70,
+    "seatHeight": 760,
+    "brake": "",
+    "variants": [
+      {
+        "id": "d7958a0d-964e-5358-9061-7134c6879444",
+        "colorName": "Xanh rêu",
+        "colorHex": "#6b765a",
+        "images": [
+          "/images/products/vinfast-zgoo-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "6152e306-8609-50c6-acfe-71b52b9a1304",
+        "colorName": "Đen bóng",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/vinfast-zgoo-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "055bc680-c851-5725-976c-70b4dcfa7dc3",
+        "colorName": "Đỏ tươi",
+        "colorHex": "#b82735",
+        "images": [
+          "/images/products/vinfast-zgoo-2.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1720 × 700 × 1050 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "760 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "1100 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Dung lượng pin",
+        "value": "1,2 kWh",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Loại pin",
+        "value": "LFP",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "39 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "70 km",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thể tích cốp",
+        "value": "14 L",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "70 km theo công bố của nhà sản xuất; quãng đường thực tế phụ thuộc điều kiện sử dụng.",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://vinfastauto.com/vn_vi/xe-may-dien-zgoo",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu."
+  },
+  {
+    "id": "b5400d92-fd19-5fc3-869b-459ff17f1467",
+    "slug": "yadea-ova",
+    "name": "YADEA OVA",
+    "brand": "YADEA",
+    "type": "electric",
+    "price": 18190000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 1,45 kW, quãng đường công bố 80 km, chiều cao yên 740 mm. 80 km trong điều kiện kiểm thử tiêu chuẩn của YADEA. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 1.45,
+    "batteryKwh": null,
+    "rangeKm": 80,
+    "seatHeight": 740,
+    "brake": "",
+    "variants": [
+      {
+        "id": "b3012945-d2c1-5896-892d-0a03309724e3",
+        "colorName": "Xanh phối kem",
+        "colorHex": "#486779",
+        "images": [
+          "/images/products/yadea-ova-0.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1600 × 670 × 1070 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "740 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất định danh",
+        "value": "350 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "1450 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "Graphene TTFAR 3 Plus 60V22Ah",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "44 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "80 km",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thời gian sạc",
+        "value": "7–8 giờ",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Khối lượng",
+        "value": "88 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Phanh",
+        "value": "Đĩa trước / tang trống sau",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "80 km trong điều kiện kiểm thử tiêu chuẩn của YADEA.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "Đĩa trước / tang trống sau",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://www.yadea.com.vn/thong-tin-san-pham/yadea-ova/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu."
+  },
+  {
+    "id": "987834f8-62a4-5f14-9208-aefe68379dc9",
+    "slug": "yadea-voltguard-u50",
+    "name": "YADEA VOLTGUARD U50",
+    "brand": "YADEA",
+    "type": "electric",
+    "price": 38990000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 2,8 kW, quãng đường công bố 200 km, chiều cao yên 770 mm. 200 km ở tốc độ 35 km/h theo nhà sản xuất. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 2.8,
+    "batteryKwh": null,
+    "rangeKm": 200,
+    "seatHeight": 770,
+    "brake": "",
+    "variants": [
+      {
+        "id": "dee1f01d-f813-5273-9d1e-58ce13fb9908",
+        "colorName": "Xám",
+        "colorHex": "#929599",
+        "images": [
+          "/images/products/yadea-voltguard-u50-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "e640b65f-989f-5065-a5b1-bc13965be1ce",
+        "colorName": "Đỏ",
+        "colorHex": "#b82735",
+        "images": [
+          "/images/products/yadea-voltguard-u50-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "ce465520-5c88-509d-990b-5e995c48b265",
+        "colorName": "Trắng",
+        "colorHex": "#eeeae1",
+        "images": [
+          "/images/products/yadea-voltguard-u50-2.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "7e4a5fac-6495-53ae-a626-e5868070f34e",
+        "colorName": "Đen",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/yadea-voltguard-u50-3.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1945 × 715 × 1130 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "770 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất danh định",
+        "value": "1500 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "2800 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Pin",
+        "value": "LFP 72V50Ah",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "63 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "200 km ở 35 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thời gian sạc",
+        "value": "5–6 giờ",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Khối lượng",
+        "value": "118 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Phanh",
+        "value": "Phanh đĩa",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "200 km ở tốc độ 35 km/h theo nhà sản xuất.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "Phanh đĩa",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://www.yadea.com.vn/thong-tin-san-pham/yadea-voltguard-u50/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu."
+  },
+  {
+    "id": "981980bc-a0de-5cad-a10d-4a2e189d87d7",
+    "slug": "yadea-velax-u",
+    "name": "YADEA VELAX U",
+    "brand": "YADEA",
+    "type": "electric",
+    "price": 52990000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 4,737 kW, quãng đường công bố 173 km, chiều cao yên 760 mm. 173 km theo thông số WMTC trên trang sản phẩm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": true,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 4.737,
+    "batteryKwh": null,
+    "rangeKm": 173,
+    "seatHeight": 760,
+    "brake": "CBS",
+    "variants": [
+      {
+        "id": "6b022415-c28e-5240-aac8-2ef702cbf825",
+        "colorName": "Xám",
+        "colorHex": "#929599",
+        "images": [
+          "/images/products/yadea-velax-u-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "77f5f01a-dee2-563e-adc0-80d33474e31d",
+        "colorName": "Đỏ",
+        "colorHex": "#b82735",
+        "images": [
+          "/images/products/yadea-velax-u-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "b4ec34ed-bc43-59f4-8369-135032e5edc1",
+        "colorName": "Trắng",
+        "colorHex": "#eeeae1",
+        "images": [
+          "/images/products/yadea-velax-u-2.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "78a09715-5218-5b73-9384-da09563a4af7",
+        "colorName": "Đen",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/yadea-velax-u-3.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1960 × 704 × 1100 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "760 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất định danh",
+        "value": "3000 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "4737 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Pin",
+        "value": "Lithium-ion NMC 74V27Ah × 2",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "94 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "173 km (WMTC)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Khối lượng",
+        "value": "121 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Phanh",
+        "value": "Đĩa trước và sau + CBS",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "173 km theo thông số WMTC trên trang sản phẩm.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "Đĩa trước và sau + CBS",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://www.yadea.com.vn/thong-tin-san-pham/yadea-velax-u-2026/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá trang bán hàng chính hãng, đã bao gồm VAT."
+  },
+  {
+    "id": "10ed603f-8646-52e5-bdaa-898f78000cea",
+    "slug": "yadea-orla-p",
+    "name": "YADEA ORLA P",
+    "brand": "YADEA",
+    "type": "electric",
+    "price": 21690000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 1,7 kW, quãng đường công bố 65 km, chiều cao yên 760 mm. 65 km với người lái 65 kg ở tốc độ 30 km/h. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 1.7,
+    "batteryKwh": null,
+    "rangeKm": 65,
+    "seatHeight": 760,
+    "brake": "",
+    "variants": [
+      {
+        "id": "e1296519-dc7f-53bc-bc86-34acdf67b736",
+        "colorName": "Be",
+        "colorHex": "#70747a",
+        "images": [
+          "/images/products/yadea-orla-p-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "372e1969-608d-59e2-8829-0eb2f71bba37",
+        "colorName": "Hồng",
+        "colorHex": "#cb97ab",
+        "images": [
+          "/images/products/yadea-orla-p-1.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "5952e284-9d42-5e2b-8540-8094196f83d4",
+        "colorName": "Đen",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/yadea-orla-p-2.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "1810 × 670 × 1140 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "760 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất danh định",
+        "value": "800 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Công suất tối đa",
+        "value": "1700 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Ắc quy",
+        "value": "Graphene TTFAR 60V22Ah",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "48 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "65 km (65 kg, 30 km/h)",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thời gian sạc",
+        "value": "7–8 giờ",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Khối lượng",
+        "value": "108 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Phanh",
+        "value": "Đĩa trước / tang trống sau",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "65 km với người lái 65 kg ở tốc độ 30 km/h.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "Đĩa trước / tang trống sau",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://www.yadea.com.vn/thong-tin-san-pham/yadea-orla-2024/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá niêm yết hiển thị trên trang chính hãng tại ngày thu thập; chưa bao gồm chi phí đăng ký/biển số trong dữ liệu."
+  },
+  {
+    "id": "b33def90-c034-5dd3-84a7-0afe54023559",
+    "slug": "dat-bike-quantum-s1",
+    "name": "Dat Bike Quantum S1",
+    "brand": "Dat Bike",
+    "type": "electric",
+    "price": 49900000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 7 kW, quãng đường công bố 285 km, chiều cao yên 790 mm. 285 km theo công bố nhà sản xuất; thực tế phụ thuộc điều kiện sử dụng. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": true,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 7,
+    "batteryKwh": 6.4,
+    "rangeKm": 285,
+    "seatHeight": 790,
+    "brake": "CBS",
+    "variants": [
+      {
+        "id": "71014c85-58d6-5016-98fe-3c3110af16c8",
+        "colorName": "Cam",
+        "colorHex": "#c36538",
+        "images": [
+          "/images/products/dat-bike-quantum-s1-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "f220947f-4bbd-52a7-b0c7-d47240bba818",
+        "colorName": "Đen",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/dat-bike-quantum-s1-1.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "2010 × 710 × 1110 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "790 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất động cơ",
+        "value": "7000 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Pin",
+        "value": "6,4 kWh",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "100 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "285 km",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thời gian sạc",
+        "value": "4 giờ (sạc 1800 W)",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Khối lượng",
+        "value": "144 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Phanh",
+        "value": "CBS 2 piston, phanh tái sinh",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "285 km theo công bố nhà sản xuất; thực tế phụ thuộc điều kiện sử dụng.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "CBS 2 piston, phanh tái sinh",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://dat.bike/xe-may-dien-quantum-s1/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá màu Cam/Đen/Xanh, đã gồm pin, sạc và VAT. Trắng/Xám 50.900.000 đ."
+  },
+  {
+    "id": "c284221d-20a9-59b7-9da1-3f5cb174476c",
+    "slug": "dat-bike-quantum-s2",
+    "name": "Dat Bike Quantum S2",
+    "brand": "Dat Bike",
+    "type": "electric",
+    "price": 42900000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 6 kW, quãng đường công bố 285 km, chiều cao yên 760 mm. 285 km theo bảng kỹ thuật trên trang sản phẩm. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 6,
+    "batteryKwh": 6.4,
+    "rangeKm": 285,
+    "seatHeight": 760,
+    "brake": "",
+    "variants": [
+      {
+        "id": "611259a1-6343-5e36-a3a3-bf81158829f3",
+        "colorName": "Cam",
+        "colorHex": "#c36538",
+        "images": [
+          "/images/products/dat-bike-quantum-s2-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "c5f08139-a105-5ced-9b69-b7e8f0cb4341",
+        "colorName": "Đen",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/dat-bike-quantum-s2-1.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "2010 × 710 × 1110 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "760 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất động cơ",
+        "value": "6000 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Pin",
+        "value": "6,4 kWh",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "90 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "285 km",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thời gian sạc",
+        "value": "7 giờ (900 W) / 4 giờ (1800 W)",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Khối lượng",
+        "value": "144 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Phanh",
+        "value": "Đĩa thủy lực trước/sau, phanh tái sinh",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "285 km theo bảng kỹ thuật trên trang sản phẩm.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "Đĩa thủy lực trước/sau, phanh tái sinh",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://dat.bike/xe-may-dien-quantum-s2/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá màu Cam/Đen/Xanh, đã gồm pin, sạc và VAT. Trắng/Xám 43.900.000 đ."
+  },
+  {
+    "id": "17e6db1e-5472-5761-82c4-7f685b3ab625",
+    "slug": "dat-bike-quantum-s3",
+    "name": "Dat Bike Quantum S3",
+    "brand": "Dat Bike",
+    "type": "electric",
+    "price": 34900000,
+    "salePrice": null,
+    "description": "Xe máy điện, công suất 6 kW, quãng đường công bố 200 km, chiều cao yên 760 mm. 200 km theo công bố nhà sản xuất; thực tế phụ thuộc điều kiện sử dụng. Thông số và giá tham khảo theo phiên bản hãng công bố.",
+    "featured": false,
+    "inStock": true,
+    "published": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "engineCc": null,
+    "motorKw": 6,
+    "batteryKwh": 4.3,
+    "rangeKm": 200,
+    "seatHeight": 760,
+    "brake": "",
+    "variants": [
+      {
+        "id": "276d7d19-4c8b-517e-9690-1cc25dc045da",
+        "colorName": "Cam",
+        "colorHex": "#c36538",
+        "images": [
+          "/images/products/dat-bike-quantum-s3-0.webp"
+        ],
+        "stock": 10
+      },
+      {
+        "id": "e846f3a4-02e8-5a0b-935c-7809635afe29",
+        "colorName": "Đen",
+        "colorHex": "#202127",
+        "images": [
+          "/images/products/dat-bike-quantum-s3-1.webp"
+        ],
+        "stock": 10
+      }
+    ],
+    "specs": [
+      {
+        "key": "Kích thước",
+        "value": "2010 × 710 × 1110 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Chiều cao yên",
+        "value": "760 mm",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Công suất động cơ",
+        "value": "6000 W",
+        "group": "Động cơ"
+      },
+      {
+        "key": "Pin",
+        "value": "4,3 kWh",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Tốc độ tối đa",
+        "value": "90 km/h",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Quãng đường tối đa",
+        "value": "200 km",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Thời gian sạc",
+        "value": "5 giờ (900 W) / 2 giờ 30 phút (1800 W)",
+        "group": "Pin & sạc"
+      },
+      {
+        "key": "Khối lượng",
+        "value": "130 kg",
+        "group": "Kích thước"
+      },
+      {
+        "key": "Phanh",
+        "value": "Đĩa thủy lực trước/sau, phanh tái sinh",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Điều kiện đo quãng đường",
+        "value": "200 km theo công bố nhà sản xuất; thực tế phụ thuộc điều kiện sử dụng.",
+        "group": "Vận hành"
+      },
+      {
+        "key": "Hệ thống phanh",
+        "value": "Đĩa thủy lực trước/sau, phanh tái sinh",
+        "group": "Vận hành"
+      }
+    ],
+    "sourceUrl": "https://dat.bike/xe-may-dien-quantum-s3/",
+    "sourceDate": "2026-10-06",
+    "priceNote": "Giá màu Cam/Đen/Xanh, đã gồm pin, sạc và VAT. Trắng/Xám 35.900.000 đ."
+  }
+]
