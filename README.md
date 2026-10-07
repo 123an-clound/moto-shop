@@ -2,6 +2,8 @@
 
 Website bán xe máy và xe điện theo `plan.md`, dùng Next.js App Router, TypeScript, Tailwind CSS, shadcn/ui và Supabase.
 
+Website trên Vercel: **https://moto-shop-xi.vercel.app**. Project `moto-shop` đã liên kết repository GitHub; push vào `main` sẽ tạo production deployment mới. Bản online hiện hiển thị danh mục 30 sản phẩm; đăng nhập admin, nhận đơn và lịch hẹn cần cấu hình Supabase cloud theo hướng dẫn bên dưới. Tài khoản admin local không dùng được trên Vercel.
+
 ## Chạy trên máy
 
 Yêu cầu Node.js 22.9 trở lên (khuyến nghị Node.js 24 LTS).
@@ -132,7 +134,7 @@ Chạy các lệnh trên trong một cửa sổ terminal riêng; biến môi tr�
 
 ## Đưa lên hosting
 
-Repository: https://github.com/123an-clound/moto-shop. Import vào Vercel hoặc hosting hỗ trợ Next.js, thiết lập các biến môi trường ở trên, build bằng `npm run build`. Chưa tạo deployment cloud trong lần bàn giao này.
+Repository: https://github.com/123an-clound/moto-shop. Đã triển khai lên Vercel ngày 07/10/2026 trong project `123an-clounds-projects/moto-shop`, dùng Node.js 24 và cấu hình Next.js trong `vercel.json`. Vercel cài dependency bằng `npm ci`, build bằng `npm run build`. `NEXT_PUBLIC_SITE_URL` đã trỏ đến https://moto-shop-xi.vercel.app cho Production và Preview. Thông tin đăng nhập local, `.env*` và dữ liệu thử trong `.local` không được tải lên deployment.
 
 - Cấu hình URL HTTPS thực cho canonical, OpenGraph, sitemap và robots. Khi dùng localhost/HTTP, site chủ động `noindex` và chặn crawl.
 - Đặt URL/redirect đúng trong Supabase Auth. Giữ service role key ở phía server.

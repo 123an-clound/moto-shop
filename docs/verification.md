@@ -1,6 +1,6 @@
 # Kết quả kiểm tra MotoShop
 
-Ngày kiểm tra: **07/10/2026**. Môi trường: Windows, Node.js 24.15.0, Chromium, Next.js production build và Supabase Docker riêng cho MotoShop. Chưa triển khai cloud.
+Ngày kiểm tra: **07/10/2026**. Môi trường ban đầu: Windows, Node.js 24.15.0, Chromium, Next.js production build và Supabase Docker riêng cho MotoShop. Kết quả triển khai Vercel bổ sung ở phần cuối.
 
 ## Chức năng và dữ liệu
 
@@ -24,7 +24,7 @@ Kiểm thử database sử dụng stack `motoshop-vietnam` ở cổng 57321/5732
 - **Accessibility:** axe trong luồng storefront, modal, mobile và admin không phát hiện vi phạm trong phạm vi quét. Lighthouse Accessibility 100. Đã kiểm tra focus modal, thao tác bàn phím, nhãn form và reduced motion. Đây không phải chứng nhận WCAG toàn diện.
 - **Motion:** chỉ dùng chuyển trạng thái CSS nhẹ, tôn trọng `prefers-reduced-motion`. Không dùng 3D, WebGL hoặc cuộn cưỡng chế; các cổng GPU/3D không áp dụng.
 - **Security:** xác thực admin phía server, quyền dựa trên `app_metadata`, RLS, Zod, kiểm tra nguồn yêu cầu, rate limit, giới hạn tải lên và kiểm tra loại tệp. Giá/tồn kho được xác minh phía server. Production thiếu Supabase trả 503 khi ghi, không báo thành công giả. `npm audit --omit=dev` báo 0 lỗ hổng.
-- **SEO:** đã kiểm tra metadata/canonical, OpenGraph/Twitter, Product JSON-LD, alt ảnh, sitemap và robots. Local chủ động `noindex` và chặn crawl; Lighthouse SEO 69 vì điều kiện chưa phát hành. Chưa kiểm tra URL preview Vercel do chưa có deployment.
+- **SEO:** đã kiểm tra metadata/canonical, OpenGraph/Twitter, Product JSON-LD, alt ảnh, sitemap và robots. Local chủ động `noindex` và chặn crawl; Lighthouse SEO 69 ở bản local. Đã kiểm tra lại SEO trên bản Vercel trước khi promote, chi tiết ở phần cuối.
 - **Performance:** đã tối ưu ảnh WebP/AVIF, ảnh hero mobile riêng, số font tải trước và khoảng trống nội dung để tránh footer dịch chuyển khi streaming. Kết quả đo dưới đây; chưa xác nhận Core Web Vitals từ người dùng thật.
 
 ## Hiệu năng đo được
@@ -50,3 +50,15 @@ Báo cáo HTML/JSON Lighthouse được giữ tại máy trong `docs/artifacts` 
 5. Audit toàn bộ dependency ghi nhận 5 cảnh báo mức cao cùng chuỗi công cụ lint dẫn đến `braces@3.0.3` (GHSA-vfj7-8cjw-p6xm). Tại thời điểm kiểm tra chưa có bản vá mới của `braces`; không ép hạ Next.js/ESLint để làm sạch báo cáo. Đây là dependency phát triển, không nằm trong audit runtime. Cần theo dõi bản vá upstream.
 
 Không phát hiện lỗi chức năng còn tồn tại trong các luồng đã kiểm thử. Các giới hạn trên được giữ rõ ràng, không thay bằng dữ liệu doanh thu, đánh giá hay xác nhận thanh toán giả.
+
+## Triển khai Vercel ngày 07/10/2026
+
+- URL công khai: **https://moto-shop-xi.vercel.app**.
+- Project: `123an-clounds-projects/moto-shop`, ID `prj_qITaSJrXBy6Vah6u9feLkPSjy8Hs`.
+- Bản phát hành đầu tiên: commit `1d5505d`, deployment `dpl_1NoK7az3UsUFwoQY8YEKE6XC5Dci`; production build hoàn tất trên Vercel. Đã kiểm tra bản staged qua cơ chế bảo vệ deployment trước khi promote.
+- GitHub đã kết nối với Vercel; các lần push tiếp theo lên `main` sẽ tự triển khai. URL canonical được cấu hình bằng `NEXT_PUBLIC_SITE_URL` cho Production/Preview.
+- Kiểm tra public: trang chủ, danh mục, Honda Vision, trang đăng nhập admin, robots, sitemap, hero AVIF và OpenGraph image đều trả HTTP 200. HTTP chuyển hướng 308 sang HTTPS.
+- SEO bản staged: canonical đúng domain, mỗi trang một H1, có OG/Twitter, ảnh có alt, Product JSON-LD hợp lệ với giá VND. Sitemap chứa 38 URL; robots cho phép trang public và chặn admin/API/giỏ hàng/tra cứu. Có CSP, HSTS, X-Content-Type-Options và X-Frame-Options.
+- Chromium trên website công khai: trang chủ rộng 1440/390 px và trang Honda Vision rộng 390 px không tràn ngang, không ảnh lỗi trong viewport, không lỗi JavaScript; axe không phát hiện vi phạm WCAG A/AA trong phạm vi kiểm tra.
+- **Chưa kết nối Supabase cloud:** catalog trả đủ 30 sản phẩm mẫu, nhưng API quản trị trả 503 theo thiết kế khi thiếu database. Chưa kích hoạt đăng nhập admin, ghi đơn/lịch hẹn hoặc thanh toán thật trên Vercel. Admin local vẫn hoạt động riêng trên máy.
+- Không chạy lại toàn bộ luồng ghi E2E trên production vì chưa có database cloud. Các phép đo Lighthouse phía trên là bản production local, không phải kết quả hiệu năng trên Vercel; chưa có dữ liệu Core Web Vitals thực tế.
