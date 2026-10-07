@@ -1,0 +1,13 @@
+.git
+.local
+.env*
+node_modules
+.next
+.playwright-mcp
+.seo-cache
+test-results
+playwright-report
+docs/artifacts
+public/uploads
+supabase/.temp
+supabase/.branches

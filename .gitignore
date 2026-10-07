@@ -13,3 +13,5 @@ docs/artifacts/*.json
 
 .playwright-mcp/
 public/uploads/
+.vercel/
+.seo-cache/
