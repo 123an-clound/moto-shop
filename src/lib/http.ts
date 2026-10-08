@@ -156,7 +156,7 @@ export async function rateLimit(
   const key = createHash("sha256").update(`${scope}:${address}`).digest("hex");
   if (hasSupabase()) {
     const { data, error } = await createServiceSupabase().rpc(
-      "consume_rate_limit",
+      "moto_consume_rate_limit",
       { p_key: key, p_maximum: maximum, p_seconds: seconds },
     );
     if (error)

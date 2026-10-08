@@ -19,7 +19,7 @@ async function main() {
   const anon = createClient(url, anonKey, options);
   const products = structuredClone(productSeed);
   for (const product of products) {
-    const { error } = await service.rpc("upsert_product", {
+    const { error } = await service.rpc("moto_upsert_product", {
       p_product: product,
     });
     assert.equal(error, null, `Seed ${product.slug}: ${error?.message}`);
@@ -31,44 +31,44 @@ async function main() {
     bankName: "LOCAL TEST",
   };
   assert.equal(
-    (await service.from("site_settings").upsert({ id: 1, config: settings }))
+    (await service.from("moto_site_settings").upsert({ id: 1, config: settings }))
       .error,
     null,
   );
-  const catalog = await anon.from("products").select("id,product_variants(id)");
+  const catalog = await anon.from("moto_products").select("id,product_variants:moto_product_variants(id)");
   assert.equal(catalog.error, null);
   assert.equal(catalog.data?.length, 30);
   const unpublished = products[1];
   unpublished.published = false;
   assert.equal(
-    (await service.rpc("upsert_product", { p_product: unpublished })).error,
+    (await service.rpc("moto_upsert_product", { p_product: unpublished })).error,
     null,
   );
   assert.equal(
-    (await anon.from("products").select("id").eq("id", unpublished.id)).data
+    (await anon.from("moto_products").select("id").eq("id", unpublished.id)).data
       ?.length,
     0,
   );
   assert.equal(
     (
       await anon
-        .from("product_variants")
+        .from("moto_product_variants")
         .select("id")
         .eq("product_id", unpublished.id)
     ).data?.length,
     0,
   );
-  const privateOrders = await anon.from("orders").select("*");
+  const privateOrders = await anon.from("moto_orders").select("*");
   assert.ok(privateOrders.error || privateOrders.data?.length === 0);
   assert.ok(
-    (await anon.rpc("create_order", { p_input: {}, p_fingerprint: "test" }))
+    (await anon.rpc("moto_create_order", { p_input: {}, p_fingerprint: "test" }))
       .error,
     "Anonymous RPC access must be denied",
   );
   assert.ok(
     (
       await anon
-        .from("test_drives")
+        .from("moto_test_drives")
         .insert({ full_name: "test", phone: "0901234567" })
     ).error,
     "Anonymous lead writes must be denied",
@@ -81,14 +81,15 @@ async function main() {
     email: adminEmail,
     password,
     email_confirm: true,
-    app_metadata: { role: "admin" },
+    app_metadata: { motoshop_role: "admin" },
   });
   assert.equal(adminUser.error, null);
   const normalUser = await service.auth.admin.createUser({
     email: userEmail,
     password,
     email_confirm: true,
-    user_metadata: { role: "admin" },
+    app_metadata: { role: "admin" },
+    user_metadata: { motoshop_role: "admin" },
   });
   assert.equal(normalUser.error, null);
   const admin = createClient(url, anonKey, options);
@@ -104,17 +105,17 @@ async function main() {
     null,
   );
   assert.equal(
-    (await admin.from("products").select("id").eq("id", unpublished.id)).data
+    (await admin.from("moto_products").select("id").eq("id", unpublished.id)).data
       ?.length,
     1,
   );
   assert.equal(
-    (await normal.from("products").select("id").eq("id", unpublished.id)).data
+    (await normal.from("moto_products").select("id").eq("id", unpublished.id)).data
       ?.length,
     0,
   );
   const forbidden = await normal
-    .from("products")
+    .from("moto_products")
     .update({ name: "attacker" })
     .eq("id", products[0].id)
     .select("id");
@@ -125,7 +126,7 @@ async function main() {
   assert.equal(
     (
       await admin
-        .from("products")
+        .from("moto_products")
         .update({ name: products[0].name })
         .eq("id", products[0].id)
         .select("id")
@@ -134,9 +135,11 @@ async function main() {
   );
 
   const product = products[0];
+  const initialSales = (await service.rpc("moto_get_sales_counts")).data?.[product.id] || 0;
+  const paymentEvent = `sepay:${randomUUID()}`;
   product.variants[0].stock = 2;
   assert.equal(
-    (await service.rpc("upsert_product", { p_product: product })).error,
+    (await service.rpc("moto_upsert_product", { p_product: product })).error,
     null,
   );
   const input = {
@@ -151,14 +154,14 @@ async function main() {
     ],
     idempotencyKey: `test-${randomUUID()}`,
   };
-  const first = await service.rpc("create_order", {
+  const first = await service.rpc("moto_create_order", {
     p_input: input,
     p_fingerprint: "fingerprint-one",
   });
   assert.equal(first.error, null, first.error?.message);
   assert.equal(first.data.total, product.salePrice ?? product.price);
   assert.equal(first.data.paymentStatus, "unpaid");
-  const retry = await service.rpc("create_order", {
+  const retry = await service.rpc("moto_create_order", {
     p_input: input,
     p_fingerprint: "fingerprint-one",
   });
@@ -167,7 +170,7 @@ async function main() {
   assert.equal(
     (
       await service
-        .from("product_variants")
+        .from("moto_product_variants")
         .select("stock_quantity")
         .eq("id", product.variants[0].id)
         .single()
@@ -176,18 +179,18 @@ async function main() {
   );
   assert.ok(
     (
-      await service.rpc("create_order", {
+      await service.rpc("moto_create_order", {
         p_input: input,
         p_fingerprint: "fingerprint-different",
       })
     ).error?.message.includes("IDEMPOTENCY_CONFLICT"),
   );
   const concurrent = await Promise.all([
-    service.rpc("create_order", {
+    service.rpc("moto_create_order", {
       p_input: { ...input, idempotencyKey: `test-${randomUUID()}` },
       p_fingerprint: "a",
     }),
-    service.rpc("create_order", {
+    service.rpc("moto_create_order", {
       p_input: { ...input, idempotencyKey: `test-${randomUUID()}` },
       p_fingerprint: "b",
     }),
@@ -200,7 +203,7 @@ async function main() {
   assert.equal(
     (
       await service
-        .from("product_variants")
+        .from("moto_product_variants")
         .select("stock_quantity")
         .eq("id", product.variants[0].id)
         .single()
@@ -209,7 +212,7 @@ async function main() {
   );
   assert.equal(
     (
-      await service.rpc("apply_payment", {
+      await service.rpc("moto_apply_payment", {
         p_event_id: "sepay:low",
         p_code: first.data.code,
         p_amount: first.data.deposit - 1,
@@ -220,7 +223,7 @@ async function main() {
   );
   assert.equal(
     (
-      await service.rpc("apply_payment", {
+      await service.rpc("moto_apply_payment", {
         p_event_id: "sepay:wrong",
         p_code: first.data.code,
         p_amount: first.data.deposit,
@@ -231,8 +234,8 @@ async function main() {
   );
   assert.equal(
     (
-      await service.rpc("apply_payment", {
-        p_event_id: "sepay:valid",
+      await service.rpc("moto_apply_payment", {
+        p_event_id: paymentEvent,
         p_code: first.data.code,
         p_amount: first.data.deposit,
         p_account: settings.bankAccount,
@@ -242,8 +245,8 @@ async function main() {
   );
   assert.equal(
     (
-      await service.rpc("apply_payment", {
-        p_event_id: "sepay:valid",
+      await service.rpc("moto_apply_payment", {
+        p_event_id: paymentEvent,
         p_code: first.data.code,
         p_amount: first.data.deposit,
         p_account: settings.bankAccount,
@@ -253,7 +256,7 @@ async function main() {
   );
   assert.equal(
     (
-      await service.rpc("update_order_status", {
+      await service.rpc("moto_update_order_status", {
         p_id: first.data.id,
         p_status: "completed",
         p_payment_status: null,
@@ -261,11 +264,14 @@ async function main() {
     ).error,
     null,
   );
-  assert.equal((await service.rpc("get_sales_counts")).data?.[product.id], 1);
+  assert.equal(
+    (await service.rpc("moto_get_sales_counts")).data?.[product.id],
+    initialSales + 1,
+  );
   const outstanding = concurrent.find((r) => !r.error)!.data;
   assert.equal(
     (
-      await service.rpc("update_order_status", {
+      await service.rpc("moto_update_order_status", {
         p_id: outstanding.id,
         p_status: "cancelled",
         p_payment_status: null,
@@ -275,7 +281,7 @@ async function main() {
   );
   assert.equal(
     (
-      await service.rpc("update_order_status", {
+      await service.rpc("moto_update_order_status", {
         p_id: outstanding.id,
         p_status: "cancelled",
         p_payment_status: null,
@@ -286,7 +292,7 @@ async function main() {
   assert.equal(
     (
       await service
-        .from("product_variants")
+        .from("moto_product_variants")
         .select("stock_quantity")
         .eq("id", product.variants[0].id)
         .single()
@@ -295,7 +301,7 @@ async function main() {
   );
   assert.ok(
     (
-      await service.rpc("update_order_status", {
+      await service.rpc("moto_update_order_status", {
         p_id: outstanding.id,
         p_status: "pending",
         p_payment_status: null,
@@ -306,7 +312,7 @@ async function main() {
   for (let n = 0; n < 3; n++)
     assert.equal(
       (
-        await service.rpc("consume_rate_limit", {
+        await service.rpc("moto_consume_rate_limit", {
           p_key: limitKey,
           p_maximum: 2,
           p_seconds: 60,
@@ -321,7 +327,7 @@ async function main() {
   assert.ok(
     (
       await normal.storage
-        .from("product-images")
+        .from("moto-product-images")
         .upload(`test-${randomUUID()}.png`, image, { contentType: "image/png" })
     ).error,
   );
@@ -329,13 +335,13 @@ async function main() {
   assert.equal(
     (
       await admin.storage
-        .from("product-images")
+        .from("moto-product-images")
         .upload(imageName, image, { contentType: "image/png" })
     ).error,
     null,
   );
   assert.equal(
-    (await admin.storage.from("product-images").remove([imageName])).error,
+    (await admin.storage.from("moto-product-images").remove([imageName])).error,
     null,
   );
   assert.equal(

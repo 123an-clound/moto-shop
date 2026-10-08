@@ -54,7 +54,7 @@ export async function requireAdmin() {
     const { data, error } = await client.auth.getUser();
     if (error || !data.user)
       throw new HttpError(401, "Vui lòng đăng nhập quản trị.", "UNAUTHORIZED");
-    if (data.user.app_metadata?.role !== "admin")
+    if (data.user.app_metadata?.motoshop_role !== "admin")
       throw new HttpError(
         403,
         "Tài khoản không có quyền quản trị.",
@@ -74,7 +74,7 @@ export async function loginAdmin(email: string, password: string) {
       email,
       password,
     });
-    if (error || !data.user || data.user.app_metadata?.role !== "admin") {
+    if (error || !data.user || data.user.app_metadata?.motoshop_role !== "admin") {
       await client.auth.signOut();
       throw new HttpError(
         401,

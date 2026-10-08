@@ -2,7 +2,7 @@
 
 Website bán xe máy và xe điện theo `plan.md`, dùng Next.js App Router, TypeScript, Tailwind CSS, shadcn/ui và Supabase.
 
-Website trên Vercel: **https://moto-shop-xi.vercel.app**. Project `moto-shop` đã liên kết repository GitHub; push vào `main` sẽ tạo production deployment mới. Bản online hiện hiển thị danh mục 30 sản phẩm; đăng nhập admin, nhận đơn và lịch hẹn cần cấu hình Supabase cloud theo hướng dẫn bên dưới. Tài khoản admin local không dùng được trên Vercel.
+Website trên Vercel: **https://moto-shop-xi.vercel.app**. Project `moto-shop` đã liên kết repository GitHub; push vào `main` sẽ tạo production deployment mới. Production kết nối Supabase cloud **Web-project** (`jtizooyjnllostamffpp`), có 30 sản phẩm và 71 biến thể màu. Quản trị tại **https://moto-shop-xi.vercel.app/admin**; thông tin đăng nhập riêng được lưu trên máy trong `.local/ADMIN-CLOUD-ACCESS.txt`, không đưa lên Git. Tài khoản admin local dùng riêng cho môi trường development.
 
 ## Chạy trên máy
 
@@ -46,15 +46,16 @@ Khi chưa cấu hình Supabase, chế độ **development** lưu thay đổi th�
 
 ## Kết nối Supabase để vận hành
 
-Chọn một project Supabase riêng cho website. Không áp migration vào database đang dùng cho ứng dụng khác nếu chưa kiểm tra xung đột tên bảng.
+Production đã cấu hình URL, publishable key và server secret trong Vercel Environment Variables. MotoShop dùng 10 bảng và 7 RPC có tiền tố `moto_`, bucket `moto-product-images` và quyền `app_metadata.motoshop_role`. Các bảng, bucket, tài khoản và cấu hình Auth của ứng dụng khác trong Web-project được giữ nguyên. Preview chưa được cấp khóa database production.
 
-1. Chạy file `supabase/migrations/20261006160152_initial_motoshop.sql` bằng SQL Editor của project, hoặc dùng Supabase CLI:
+Các bước dưới đây dành cho việc dựng một môi trường cloud mới:
 
-   ```powershell
-   npx supabase login
-   npx supabase link --project-ref YOUR_PROJECT_REF
-   npx supabase db push
-   ```
+1. Chạy lần lượt hai migration bằng SQL Editor hoặc công cụ quản lý migration:
+
+   - `supabase/migrations/20261007152611_isolate_motoshop_cloud.sql`
+   - `supabase/migrations/20261007153618_refine_motoshop_policies.sql`
+
+   Cả hai đã được áp dụng vào Web-project. File `20261006160152_initial_motoshop.sql` là baseline lịch sử cho stack local, có tên bảng chung. **Không áp file đó hoặc chạy toàn bộ `supabase db push` vào project cloud dùng chung.**
 
 2. Điền `.env.local` (trên hosting, dùng Environment Variables):
 
@@ -62,10 +63,10 @@ Chọn một project Supabase riêng cho website. Không áp migration vào data
    NEXT_PUBLIC_SITE_URL=https://ten-mien-cua-ban.vn
    NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
    NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
-   SUPABASE_SERVICE_ROLE_KEY=YOUR_SERVER_SECRET
+   SUPABASE_SECRET_KEY=YOUR_SERVER_SECRET
    ```
 
-   Hỗ trợ cả `NEXT_PUBLIC_SUPABASE_ANON_KEY` và `SUPABASE_SECRET_KEY`. Khóa service/secret chỉ được sử dụng phía máy chủ, không đặt tiền tố `NEXT_PUBLIC_`.
+   Hỗ trợ cả khóa legacy `NEXT_PUBLIC_SUPABASE_ANON_KEY` và `SUPABASE_SERVICE_ROLE_KEY`. Khóa service/secret chỉ được sử dụng phía máy chủ, không đặt tiền tố `NEXT_PUBLIC_`. Trên máy bàn giao, `.env.cloud.local` phục vụ thao tác cloud riêng; `.env.local` tiếp tục chạy dữ liệu local. Cả hai đều được loại khỏi Git và bản tải lên Vercel.
 
 3. Nạp danh mục ban đầu:
 
@@ -75,18 +76,18 @@ Chọn một project Supabase riêng cho website. Không áp migration vào data
 
    Lệnh từ chối ghi đè khi database đã có sản phẩm. Chỉ đặt `SEED_ALLOW_OVERWRITE=true` khi chủ động muốn thay dữ liệu sản phẩm/cấu hình bằng bản mẫu; không dùng sau khi đã chỉnh giá và tồn kho thật.
 
-4. Tạo người dùng quản trị trong Supabase Authentication → Users, rồi cấp `app_metadata.role = admin` bằng Admin API hoặc SQL Editor. Ví dụ, thay email bên dưới bằng email chủ cửa hàng:
+4. Tạo người dùng quản trị trong Supabase Authentication → Users, rồi cấp `app_metadata.motoshop_role = admin` bằng Admin API hoặc SQL Editor. Ví dụ, thay email bên dưới bằng email chủ cửa hàng:
 
    ```sql
    update auth.users
    set raw_app_meta_data = coalesce(raw_app_meta_data, '{}'::jsonb)
-     || '{"role":"admin"}'::jsonb
+     || '{"motoshop_role":"admin"}'::jsonb
    where email = 'EMAIL_QUAN_TRI_CUA_BAN';
    ```
 
-   Đăng nhập bằng email/mật khẩu của người dùng này. `user_metadata.role` do người dùng tự sửa không cấp quyền admin. Không đưa SQL cấp quyền vào frontend.
+   Đăng nhập bằng email/mật khẩu của người dùng này. `user_metadata` do người dùng tự sửa và `app_metadata.role` của ứng dụng khác không cấp quyền quản trị MotoShop. Không đưa SQL cấp quyền vào frontend.
 
-5. Khởi động lại website và kiểm tra admin hiển thị **Supabase**. Kiểm tra tải ảnh vào bucket `product-images`, đặt thử/hủy một đơn, xác nhận lịch hẹn trước khi mở bán.
+5. Khởi động lại website và kiểm tra admin hiển thị **Supabase**. Kiểm tra tải ảnh vào bucket `moto-product-images`, đặt thử/hủy một đơn, xác nhận lịch hẹn trước khi mở bán. 98 ảnh ban đầu vẫn được phục vụ từ Vercel; ảnh tải thêm trong admin được lưu vào Supabase Storage.
 
 RLS cho phép khách đọc sản phẩm đã xuất bản và cấu hình công khai. Đơn hàng/lịch hẹn không được đọc công khai; mọi biểu mẫu gửi qua API có validation, hạn mức yêu cầu và kiểm tra nguồn. Thao tác đặt xe/tồn kho/thanh toán dùng transaction. Admin có nút làm mới dữ liệu; hiện không đăng ký kênh Realtime.
 
@@ -137,7 +138,7 @@ Chạy các lệnh trên trong một cửa sổ terminal riêng; biến môi tr�
 Repository: https://github.com/123an-clound/moto-shop. Đã triển khai lên Vercel ngày 07/10/2026 trong project `123an-clounds-projects/moto-shop`, dùng Node.js 24 và cấu hình Next.js trong `vercel.json`. Vercel cài dependency bằng `npm ci`, build bằng `npm run build`. `NEXT_PUBLIC_SITE_URL` đã trỏ đến https://moto-shop-xi.vercel.app cho Production và Preview. Thông tin đăng nhập local, `.env*` và dữ liệu thử trong `.local` không được tải lên deployment.
 
 - Cấu hình URL HTTPS thực cho canonical, OpenGraph, sitemap và robots. Khi dùng localhost/HTTP, site chủ động `noindex` và chặn crawl.
-- Đặt URL/redirect đúng trong Supabase Auth. Giữ service role key ở phía server.
+- Đăng nhập hiện dùng email/mật khẩu, không cần đổi Auth Site URL của project dùng chung. Chỉ cấu hình redirect riêng khi bổ sung OAuth hoặc khôi phục mật khẩu. Giữ server secret ở phía server.
 - Cập nhật tồn kho, giá, hotline, showroom, điều kiện giao/nhận, chính sách và thông tin thanh toán thật trước khi mở bán.
 - Kiểm thử lại trên preview: đăng nhập, ảnh Storage, đơn hàng, webhook, SEO, hiệu năng qua mạng thực. Sau đó mới chuyển tên miền production.
 

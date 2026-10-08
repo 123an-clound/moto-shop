@@ -17,7 +17,7 @@ async function main() {
     );
   const client = createClient(url, secret, { auth: { persistSession: false } });
   const { count, error: checkError } = await client
-    .from("products")
+    .from("moto_products")
     .select("id", { count: "exact", head: true });
   if (checkError)
     throw new Error("Chưa có schema. Hãy chạy migration trước khi seed.");
@@ -26,7 +26,7 @@ async function main() {
       "Database đã có sản phẩm. Chỉ seed database mới; đặt SEED_ALLOW_OVERWRITE=true nếu chủ động muốn cập nhật toàn bộ dữ liệu mẫu.",
     );
   for (const product of products) {
-    const { error } = await client.rpc("upsert_product", {
+    const { error } = await client.rpc("moto_upsert_product", {
       p_product: product,
     });
     if (error)
@@ -35,7 +35,7 @@ async function main() {
       );
   }
   const { error } = await client
-    .from("site_settings")
+    .from("moto_site_settings")
     .upsert({
       id: 1,
       site_name: settings.siteName,

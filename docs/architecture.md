@@ -4,7 +4,9 @@
 
 Shared DTOs live in `src/types/index.ts`. All persistence flows through server-only `src/lib/repository.ts`; Supabase uses normalized product/variant/spec tables with transactions. When Supabase is not configured, development uses `.local/store.json`, never a public browser database. Production writes require Supabase.
 
-Public writes validate with Zod and rate limits. Prices and stock are read again on the server. Order lookup requires both unpredictable order code and phone and returns status only. Admin access uses Supabase `app_metadata.role = admin`, or a development-only signed session. Public clients never receive privileged keys.
+Public writes validate with Zod and rate limits. Prices and stock are read again on the server. Order lookup requires both unpredictable order code and phone and returns status only. Admin access uses Supabase `app_metadata.motoshop_role = admin`, or a development-only signed session. Public clients never receive privileged keys.
+
+Production uses the existing Supabase Web-project (`jtizooyjnllostamffpp`) with an isolated MotoShop namespace: 10 `moto_` tables, 7 `moto_` RPCs and the `moto-product-images` bucket. The two namespaced migrations dated `20261007` create the cloud schema; the original baseline is retained only for historical/local use. Existing applications and Auth defaults are unchanged. RPC execution is restricted to the server role; RLS allows public catalog reads and MotoShop-specific admin access. Product timestamps are normalized to UTC ISO strings when loading Postgres rows so they remain valid through the admin edit/save cycle.
 
 Seed prices/images/specs are attributed to the exact source model/version and retrieval date. Missing specifications remain null. Bank details, storefront contact details and showrooms await the owner's real values. Installment results are estimates. Payment confirmation requires trusted provider evidence or a recorded admin confirmation.
 

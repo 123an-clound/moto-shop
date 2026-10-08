@@ -93,7 +93,7 @@ export async function POST(request: Request) {
     if (hasSupabase()) {
       const client = createServiceSupabase();
       const { error } = await client.storage
-        .from("product-images")
+        .from("moto-product-images")
         .upload(filename, buffer, {
           contentType: file.type,
           cacheControl: "31536000",
@@ -101,7 +101,7 @@ export async function POST(request: Request) {
         });
       if (error) throw new HttpError(503, "Không thể tải ảnh lên Storage.");
       return {
-        url: client.storage.from("product-images").getPublicUrl(filename).data
+        url: client.storage.from("moto-product-images").getPublicUrl(filename).data
           .publicUrl,
       };
     }

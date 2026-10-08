@@ -1,0 +1,26 @@
+-- Refine only MotoShop policies; preserve policies of every other app.
+drop policy moto_admin_categories on public.moto_categories;
+create policy moto_admin_categories_insert on public.moto_categories for insert to authenticated with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_categories_update on public.moto_categories for update to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin') with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_categories_delete on public.moto_categories for delete to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+drop policy moto_admin_products on public.moto_products;
+create policy moto_admin_products_insert on public.moto_products for insert to authenticated with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_products_update on public.moto_products for update to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin') with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_products_delete on public.moto_products for delete to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+drop policy moto_admin_variants on public.moto_product_variants;
+create policy moto_admin_variants_insert on public.moto_product_variants for insert to authenticated with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_variants_update on public.moto_product_variants for update to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin') with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_variants_delete on public.moto_product_variants for delete to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+drop policy moto_admin_specifications on public.moto_specifications;
+create policy moto_admin_specifications_insert on public.moto_specifications for insert to authenticated with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_specifications_update on public.moto_specifications for update to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin') with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_specifications_delete on public.moto_specifications for delete to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+drop policy moto_admin_site_settings on public.moto_site_settings;
+create policy moto_admin_site_settings_insert on public.moto_site_settings for insert to authenticated with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_site_settings_update on public.moto_site_settings for update to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin') with check ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+create policy moto_admin_site_settings_delete on public.moto_site_settings for delete to authenticated using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+alter policy moto_public_products on public.moto_products using (published or (select auth.jwt())->'app_metadata'->>'motoshop_role'='admin');
+alter policy moto_public_variants on public.moto_product_variants using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin' or exists(select 1 from public.moto_products p where p.id=product_id and p.published));
+alter policy moto_public_specifications on public.moto_specifications using ((select auth.jwt())->'app_metadata'->>'motoshop_role'='admin' or exists(select 1 from public.moto_products p where p.id=product_id and p.published));
+create policy moto_server_payment_events on public.moto_payment_events for all to service_role using (true) with check (true);
+create policy moto_server_rate_limits on public.moto_rate_limits for all to service_role using (true) with check (true);

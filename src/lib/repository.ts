@@ -228,7 +228,7 @@ function mapProduct(row: DbProduct): Product {
     featured: row.featured,
     inStock: row.in_stock,
     published: row.published,
-    createdAt: row.created_at,
+    createdAt: new Date(row.created_at).toISOString(),
     engineCc: row.engine_cc,
     motorKw: row.motor_kw,
     batteryKwh: row.battery_kwh,
@@ -304,8 +304,10 @@ export async function getProducts(
       ? createServiceSupabase()
       : publicClient();
     let query = client
-      .from("products")
-      .select("*, product_variants(*), specifications(*)")
+      .from("moto_products")
+      .select(
+        "*, product_variants:moto_product_variants(*), specifications:moto_specifications(*)",
+      )
       .order("created_at", { ascending: false })
       .limit(1000);
     if (!options.includeUnpublished) query = query.eq("published", true);
@@ -331,7 +333,7 @@ export async function getSalesCounts(): Promise<Record<string, number>> {
     ))
       return {};
     const { data, error } =
-      await createServiceSupabase().rpc("get_sales_counts");
+      await createServiceSupabase().rpc("moto_get_sales_counts");
     if (error) dbError(error);
     return (data || {}) as Record<string, number>;
   }
@@ -346,7 +348,7 @@ export async function getSalesCounts(): Promise<Record<string, number>> {
 export async function getSettings(): Promise<SiteSettings> {
   if (hasSupabase()) {
     const { data, error } = await publicClient()
-      .from("site_settings")
+      .from("moto_site_settings")
       .select("config")
       .eq("id", 1)
       .single();
@@ -389,12 +391,12 @@ export async function getAdminSnapshot(): Promise<AdminSnapshot> {
     getProducts({ includeUnpublished: true }),
     getSettings(),
     client
-      .from("orders")
-      .select("*, order_items(*)")
+      .from("moto_orders")
+      .select("*, order_items:moto_order_items(*)")
       .order("created_at", { ascending: false })
       .limit(500),
     client
-      .from("test_drives")
+      .from("moto_test_drives")
       .select("*")
       .order("created_at", { ascending: false })
       .limit(500),
@@ -412,7 +414,7 @@ export async function getAdminSnapshot(): Promise<AdminSnapshot> {
 export async function saveProduct(product: Product) {
   requirePersistence();
   if (hasSupabase()) {
-    const { error } = await createServiceSupabase().rpc("upsert_product", {
+    const { error } = await createServiceSupabase().rpc("moto_upsert_product", {
       p_product: product,
     });
     if (error) dbError(error);
@@ -433,7 +435,7 @@ export async function deleteProduct(id: string) {
   requirePersistence();
   if (hasSupabase()) {
     const { error } = await createServiceSupabase()
-      .from("products")
+      .from("moto_products")
       .delete()
       .eq("id", id);
     if (error) dbError(error);
@@ -449,7 +451,7 @@ export async function saveSettings(settings: SiteSettings) {
   requirePersistence();
   if (hasSupabase()) {
     const { error } = await createServiceSupabase()
-      .from("site_settings")
+      .from("moto_site_settings")
       .upsert({
         id: 1,
         site_name: settings.siteName,
@@ -489,7 +491,7 @@ export async function createTestDrive(input: TestDriveInput) {
   };
   if (hasSupabase()) {
     const { error } = await createServiceSupabase()
-      .from("test_drives")
+      .from("moto_test_drives")
       .insert({
         id: drive.id,
         product_id: drive.productId,
@@ -513,7 +515,7 @@ export async function updateTestDrive(id: string, status: TestDrive["status"]) {
   requirePersistence();
   if (hasSupabase()) {
     const { data, error } = await createServiceSupabase()
-      .from("test_drives")
+      .from("moto_test_drives")
       .update({ status })
       .eq("id", id)
       .select("id")
@@ -594,7 +596,7 @@ export async function createOrder(input: OrderInput) {
       "BANK_NOT_CONFIGURED",
     );
   if (hasSupabase()) {
-    const { data, error } = await createServiceSupabase().rpc("create_order", {
+    const { data, error } = await createServiceSupabase().rpc("moto_create_order", {
       p_input: input,
       p_fingerprint: fingerprint,
     });
@@ -664,8 +666,8 @@ export async function lookupOrder(code: string, phone: string) {
   let order: Order | undefined;
   if (hasSupabase()) {
     const { data, error } = await createServiceSupabase()
-      .from("orders")
-      .select("*, order_items(*)")
+      .from("moto_orders")
+      .select("*, order_items:moto_order_items(*)")
       .eq("code", code)
       .eq("phone", phone)
       .maybeSingle();
@@ -702,7 +704,7 @@ export async function updateOrder(
 ) {
   requirePersistence();
   if (hasSupabase()) {
-    const { error } = await createServiceSupabase().rpc("update_order_status", {
+    const { error } = await createServiceSupabase().rpc("moto_update_order_status", {
       p_id: id,
       p_status: status,
       p_payment_status: paymentStatus ?? null,
@@ -739,7 +741,7 @@ export async function applyPayment(
 ) {
   requirePersistence();
   if (hasSupabase()) {
-    const { data, error } = await createServiceSupabase().rpc("apply_payment", {
+    const { data, error } = await createServiceSupabase().rpc("moto_apply_payment", {
       p_event_id: eventId,
       p_code: code,
       p_amount: amount,
